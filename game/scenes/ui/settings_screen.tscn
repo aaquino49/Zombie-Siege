@@ -1,0 +1,158 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/settings_screen.gd" id="1_script"]
+
+[node name="SettingsScreen" type="CanvasLayer"]
+process_mode = 3
+layer = 35
+visible = false
+script = ExtResource("1_script")
+
+[node name="Dim" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+color = Color(0, 0, 0, 0.55)
+
+[node name="Center" type="CenterContainer" parent="Dim"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Panel" type="PanelContainer" parent="Dim/Center"]
+custom_minimum_size = Vector2(760, 0)
+layout_mode = 2
+
+[node name="Margin" type="MarginContainer" parent="Dim/Center/Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 28
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 28
+
+[node name="Content" type="VBoxContainer" parent="Dim/Center/Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Title" type="Label" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+text = "SETTINGS"
+horizontal_alignment = 1
+
+
+[node name="Subtitle" type="Label" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+text = "Changes apply immediately and are saved."
+horizontal_alignment = 1
+
+[node name="Volumes" type="VBoxContainer" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="MasterRow" type="HBoxContainer" parent="Dim/Center/Panel/Margin/Content/Volumes"]
+layout_mode = 2
+theme_override_constants/separation = 18
+
+[node name="Label" type="Label" parent="Dim/Center/Panel/Margin/Content/Volumes/MasterRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(100, 0)
+text = "Master"
+
+[node name="Master" type="HSlider" parent="Dim/Center/Panel/Margin/Content/Volumes/MasterRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(260, 28)
+size_flags_horizontal = 3
+size_flags_vertical = 4
+max_value = 100.0
+step = 1.0
+value = 80.0
+
+[node name="SFXRow" type="HBoxContainer" parent="Dim/Center/Panel/Margin/Content/Volumes"]
+layout_mode = 2
+theme_override_constants/separation = 18
+
+[node name="Label" type="Label" parent="Dim/Center/Panel/Margin/Content/Volumes/SFXRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(100, 0)
+text = "SFX"
+
+[node name="SFX" type="HSlider" parent="Dim/Center/Panel/Margin/Content/Volumes/SFXRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(260, 28)
+size_flags_horizontal = 3
+size_flags_vertical = 4
+max_value = 100.0
+step = 1.0
+value = 80.0
+
+[node name="MusicRow" type="HBoxContainer" parent="Dim/Center/Panel/Margin/Content/Volumes"]
+layout_mode = 2
+theme_override_constants/separation = 18
+
+[node name="Label" type="Label" parent="Dim/Center/Panel/Margin/Content/Volumes/MusicRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(100, 0)
+text = "Music"
+
+[node name="Music" type="HSlider" parent="Dim/Center/Panel/Margin/Content/Volumes/MusicRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(260, 28)
+size_flags_horizontal = 3
+size_flags_vertical = 4
+max_value = 100.0
+step = 1.0
+value = 80.0
+
+[node name="Separator" type="HSeparator" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+
+[node name="Options" type="VBoxContainer" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Fullscreen" type="CheckButton" parent="Dim/Center/Panel/Margin/Content/Options"]
+layout_mode = 2
+text = "Fullscreen"
+
+[node name="SpeedRow" type="HBoxContainer" parent="Dim/Center/Panel/Margin/Content/Options"]
+layout_mode = 2
+theme_override_constants/separation = 18
+
+[node name="Label" type="Label" parent="Dim/Center/Panel/Margin/Content/Options/SpeedRow"]
+layout_mode = 2
+text = "Default game speed"
+size_flags_horizontal = 3
+
+[node name="Speed" type="OptionButton" parent="Dim/Center/Panel/Margin/Content/Options/SpeedRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(180, 48)
+item_count = 3
+selected = 0
+popup/item_0/text = "1×"
+popup/item_0/id = 0
+popup/item_1/text = "2×"
+popup/item_1/id = 1
+popup/item_2/text = "3×"
+popup/item_2/id = 2
+
+[node name="Hints" type="CheckButton" parent="Dim/Center/Panel/Margin/Content/Options"]
+layout_mode = 2
+text = "Tutorial hints"
+
+[node name="ScreenShake" type="CheckButton" parent="Dim/Center/Panel/Margin/Content/Options"]
+layout_mode = 2
+text = "Screen shake"
+
+[node name="Buttons" type="VBoxContainer" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+
+[node name="Back" type="Button" parent="Dim/Center/Panel/Margin/Content/Buttons"]
+layout_mode = 2
+text = "Back"

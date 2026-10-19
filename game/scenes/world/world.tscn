@@ -1,0 +1,80 @@
+[gd_scene load_steps=13 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/world_view.gd" id="1_world"]
+[ext_resource type="Script" path="res://scripts/world/camera_controller.gd" id="2_cam"]
+[ext_resource type="Script" path="res://scripts/world/build_mode.gd" id="3_build"]
+[ext_resource type="Script" path="res://scripts/units/survivor_layer.gd" id="4_units"]
+[ext_resource type="Script" path="res://scripts/world/floating_text_layer.gd" id="5_floating"]
+[ext_resource type="Script" path="res://scripts/world/selection_controller.gd" id="6_sel"]
+[ext_resource type="Script" path="res://scripts/world/day_night_tint.gd" id="7_tint"]
+[ext_resource type="Script" path="res://scripts/units/zombie_layer.gd" id="8_zombies"]
+
+[ext_resource type="Script" path="res://scripts/world/combat_fx.gd" id="9_fx"]
+[ext_resource type="Script" path="res://scripts/world/rescue_helicopter.gd" id="10_heli"]
+[ext_resource type="Script" path="res://scripts/world/night_lights.gd" id="11_lights"]
+[ext_resource type="Script" path="res://scripts/world/decor_layer.gd" id="12_decor"]
+[ext_resource type="Script" path="res://scripts/world/weather_layer.gd" id="13_weather"]
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_world")
+
+[node name="Ground" type="TileMapLayer" parent="."]
+texture_filter = 1
+scale = Vector2(4, 4)
+
+[node name="GroundDetail" type="TileMapLayer" parent="."]
+texture_filter = 1
+scale = Vector2(4, 4)
+
+[node name="YSort" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="WeatherLayer" type="Node2D" parent="."]
+z_index = 1
+script = ExtResource("13_weather")
+
+[node name="Props" type="Node2D" parent="YSort"]
+texture_filter = 1
+y_sort_enabled = true
+
+[node name="Buildings" type="Node2D" parent="YSort"]
+y_sort_enabled = true
+
+[node name="Decor" type="Node2D" parent="YSort"]
+texture_filter = 1
+y_sort_enabled = true
+script = ExtResource("12_decor")
+
+[node name="Units" type="Node2D" parent="YSort"]
+script = ExtResource("4_units")
+y_sort_enabled = true
+
+[node name="Zombies" type="Node2D" parent="YSort"]
+y_sort_enabled = true
+script = ExtResource("8_zombies")
+
+[node name="CombatFx" type="Node2D" parent="."]
+z_index = 2
+script = ExtResource("9_fx")
+
+[node name="RescueHelicopter" type="Node2D" parent="."]
+script = ExtResource("10_heli")
+
+[node name="FloatingText" type="Node2D" parent="."]
+z_index = 3
+script = ExtResource("5_floating")
+
+[node name="Selection" type="Node2D" parent="."]
+script = ExtResource("6_sel")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = ExtResource("2_cam")
+
+[node name="BuildMode" type="Node2D" parent="."]
+script = ExtResource("3_build")
+
+[node name="DayNightTint" type="CanvasModulate" parent="."]
+script = ExtResource("7_tint")
+
+[node name="NightLights" type="Node2D" parent="."]
+script = ExtResource("11_lights")

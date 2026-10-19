@@ -1,0 +1,19 @@
+{
+  "morning_fraction": 0.4,
+  "max_runs": 1,
+  "max_runs_from_day": {"10": 2},
+  "loot": {
+    "wood": [10, 20],
+    "scrap": [5, 15],
+    "food": [0, 8],
+    "ammo": [0, 20]
+  },
+  "loot_per_day": 0.02,
+  "newcomer_chance": 0.15,
+  "hurt_base": 0.10,
+  "hurt_per_day": 0.01,
+  "hurt_max": 0.30,
+  "lost_base": 0.02,
+  "lost_per_day": 0.005,
+  "lost_max": 0.12
+}

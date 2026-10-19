@@ -1,0 +1,1606 @@
+[
+  {
+    "file": "game/assets/pixel/characters/survivor_blue_walk_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      477,
+      478,
+      479
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('878c96', '000000', 'a77967'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "808688ab29df8b1deb78cd9e0195fec3709762e0f3364d2b517a95d0ef1c8732"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_blue_hurt_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      486,
+      487,
+      488
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "88aeba798640487abe865d473c4e70e9a88f1f32d2ee34f78ecdc0ed79f5e69b"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_blue_walk_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('878c96', '000000', 'a77967'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "26b4d4bb55ade6637a5cfe9bb176082bfc3d6d0e8f330aa7e82024ec201c97e2"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_blue_hurt_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "641315532b81c4c811c90a228aaa86ff2ef36e596796b61224657a2e208c59d2"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_blue_walk_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      483,
+      484,
+      485
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('878c96', '000000', 'a77967'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "2c2f802706da2b7f8813ef4ad3c0b925cf8aa6ee24ac510289dba6330612b5a8"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_blue_hurt_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      492,
+      493,
+      494
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "d50af2c860e10fd2872e3388b263fb271368e41b562c74006f6ebec25bbb4477"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_blue_walk_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('878c96', '000000', 'a77967'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "dd623732e85cf54a4884833a44ebdcc68bec855506940aa387f13a8125d5dba0"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_blue_hurt_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "2634d4e74c54ab3298b3f93619b77884871e63fb0dd26485c67901a482152db6"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_brown_walk_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      477,
+      478,
+      479
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('866752', '000000', '9c7761'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "ec9531bfa1c7d106f0104b703155343a15e7820b5525b6f3413e39db439722be"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_brown_hurt_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      486,
+      487,
+      488
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "88aeba798640487abe865d473c4e70e9a88f1f32d2ee34f78ecdc0ed79f5e69b"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_brown_walk_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('866752', '000000', '9c7761'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "7e8e261990a5a1d9cdab3d6d1154b619afc7cf31909778d5e8fa6768fbca3907"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_brown_hurt_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "641315532b81c4c811c90a228aaa86ff2ef36e596796b61224657a2e208c59d2"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_brown_walk_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      483,
+      484,
+      485
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('866752', '000000', '9c7761'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "d1b39683e6f7b2652257e9c8c469e4ad8e4eceb5f07ac5ac051fa44b12d15c3f"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_brown_hurt_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      492,
+      493,
+      494
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "d50af2c860e10fd2872e3388b263fb271368e41b562c74006f6ebec25bbb4477"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_brown_walk_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('866752', '000000', '9c7761'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "56a5f765aa3215c7e2e7f28981e76ce5a963ea89dcf8bd5ff72027e62be4a2d9"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_brown_hurt_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "2634d4e74c54ab3298b3f93619b77884871e63fb0dd26485c67901a482152db6"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_green_walk_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      477,
+      478,
+      479
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('949974', 'd4ccab', 'a77967'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "79c6d5cbb78d3449ed3ef45161be68822d7299667e6729e8803aa7a60fa8b849"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_green_hurt_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      486,
+      487,
+      488
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "88aeba798640487abe865d473c4e70e9a88f1f32d2ee34f78ecdc0ed79f5e69b"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_green_walk_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('949974', 'd4ccab', 'a77967'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "63cd9c76e27ff603392c3c8dcf7bcc32b4525f28c3b8cd3738aa3e8e4b56da0b"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_green_hurt_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "641315532b81c4c811c90a228aaa86ff2ef36e596796b61224657a2e208c59d2"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_green_walk_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      483,
+      484,
+      485
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('949974', 'd4ccab', 'a77967'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "fa127df7303c7583def90a8d482d7e1672f5f432a9af4889121685d7c2afb06c"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_green_hurt_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      492,
+      493,
+      494
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "d50af2c860e10fd2872e3388b263fb271368e41b562c74006f6ebec25bbb4477"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_green_walk_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('949974', 'd4ccab', 'a77967'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "e6ccb14182967b3b6d204c2f9ffa2f1a9531dcd9e73a0fcaf16795619c297cc5"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_green_hurt_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "2634d4e74c54ab3298b3f93619b77884871e63fb0dd26485c67901a482152db6"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_old_walk_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      477,
+      478,
+      479
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('b6aeae', '878c96', 'ad644b'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "39accd67b2c99161096c5ae96bdd8fde6df2b450265516e52e495a8379efcf7f"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_old_hurt_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      486,
+      487,
+      488
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "88aeba798640487abe865d473c4e70e9a88f1f32d2ee34f78ecdc0ed79f5e69b"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_old_walk_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('b6aeae', '878c96', 'ad644b'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "2ff8b41e08d1fb7e97fa6090251913d269620de609563a3d8a0e1742ce437d09"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_old_hurt_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "641315532b81c4c811c90a228aaa86ff2ef36e596796b61224657a2e208c59d2"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_old_walk_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      483,
+      484,
+      485
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('b6aeae', '878c96', 'ad644b'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "624f33a554e7468ab16281ddd7b25ec294a2af232557535b141c21f10bbe5389"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_old_hurt_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      492,
+      493,
+      494
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "d50af2c860e10fd2872e3388b263fb271368e41b562c74006f6ebec25bbb4477"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_old_walk_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('b6aeae', '878c96', 'ad644b'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "9089c9f97d2d5d05e9a0c680cc362a3632120911200e547fb9d46072637edae8"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_old_hurt_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "2634d4e74c54ab3298b3f93619b77884871e63fb0dd26485c67901a482152db6"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_survivor_walk_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      477,
+      478,
+      479
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('c36448', '443830', 'a77967'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "b602e570fa12b7b5bc995baf7069066588ede1eeea80cda312e8a3ee4674d651"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_survivor_hurt_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      486,
+      487,
+      488
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "88aeba798640487abe865d473c4e70e9a88f1f32d2ee34f78ecdc0ed79f5e69b"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_survivor_walk_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('c36448', '443830', 'a77967'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "1a9d1438b77b990f3743dbbea5b5b1a0db35f1f1066db7ebcf6448e497c8febe"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_survivor_hurt_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "641315532b81c4c811c90a228aaa86ff2ef36e596796b61224657a2e208c59d2"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_survivor_walk_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      483,
+      484,
+      485
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('c36448', '443830', 'a77967'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "c9e4e7457fb6b305d5a551de5f89869784804144c47bea2c6b01ffa6861e1d54"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_survivor_hurt_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      492,
+      493,
+      494
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "d50af2c860e10fd2872e3388b263fb271368e41b562c74006f6ebec25bbb4477"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_survivor_walk_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('c36448', '443830', 'a77967'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "00a27d3d0c6f7b2f3d2e0256a313be3461dda78d19b908699930adf24dcb10ef"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_survivor_hurt_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "2634d4e74c54ab3298b3f93619b77884871e63fb0dd26485c67901a482152db6"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_hitman_walk_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      477,
+      478,
+      479
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('211818', '878c96', 'ad644b'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "3d10beca6f94bd71844f2b987ba79a1020f5975e07e3a56f0196c572b3e1453b"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_hitman_hurt_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      486,
+      487,
+      488
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "88aeba798640487abe865d473c4e70e9a88f1f32d2ee34f78ecdc0ed79f5e69b"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_hitman_walk_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('211818', '878c96', 'ad644b'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "d397ab00ff718985817fc397f5d7cfb6d393b59bc19d672b5980d65ea68491d2"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_hitman_hurt_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "641315532b81c4c811c90a228aaa86ff2ef36e596796b61224657a2e208c59d2"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_hitman_walk_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      483,
+      484,
+      485
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('211818', '878c96', 'ad644b'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "defa343db8cd1469c55ffd92e6e7c1d4cf5271ec81edccfade479005ba073bcf"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_hitman_hurt_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      492,
+      493,
+      494
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "d50af2c860e10fd2872e3388b263fb271368e41b562c74006f6ebec25bbb4477"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_hitman_walk_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('211818', '878c96', 'ad644b'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "4fa8237580c31eda24b38f668def4bda20cc88acecf2b0979e992070f41a9024"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_hitman_hurt_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "2634d4e74c54ab3298b3f93619b77884871e63fb0dd26485c67901a482152db6"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_soldier_walk_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      477,
+      478,
+      479
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('928969', '443830', '866752'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "462aa8c331107f19a399ef3b4178c9ba2b011447d5c160b52bcbbe055d84a4c6"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_soldier_hurt_down.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      486,
+      487,
+      488
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "88aeba798640487abe865d473c4e70e9a88f1f32d2ee34f78ecdc0ed79f5e69b"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_soldier_walk_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('928969', '443830', '866752'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "4862e94997f3279c3f4d1589508eec9f8c1035cba3c17935e6bdf6100653ea6d"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_soldier_hurt_left.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "641315532b81c4c811c90a228aaa86ff2ef36e596796b61224657a2e208c59d2"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_soldier_walk_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      483,
+      484,
+      485
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('928969', '443830', '866752'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "ba8499ccbabf484ac65a758858097e66830aa7568a7129d11e86eaf8f7221bb2"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_soldier_hurt_up.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      492,
+      493,
+      494
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "d50af2c860e10fd2872e3388b263fb271368e41b562c74006f6ebec25bbb4477"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_soldier_walk_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      480,
+      481,
+      482
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png"
+    ],
+    "processing": "gap-fill: recoloured semantic shirt/skin/interior hair masks ('928969', '443830', '866752'); preserved eyes, black contour, trousers and exact T-102 padding. 0-1-0-2 at 8 fps; idle=0. Right mirrors complete padded left cells.",
+    "sha256": "bf57f39a49e61e61c9fc9143fca0a3578e1127243f0eee6833b1939fe20fe438"
+  },
+  {
+    "file": "game/assets/pixel/characters/survivor_soldier_hurt_right.png",
+    "size": [
+      48,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      489,
+      490,
+      491
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png"
+    ],
+    "processing": "gap-fill: edited naming only; exact authored red/black/white hurt cells, no tint. 0-1-2 at 12 fps. Same bottom-centre 16x16 cells.",
+    "sha256": "2634d4e74c54ab3298b3f93619b77884871e63fb0dd26485c67901a482152db6"
+  },
+  {
+    "file": "game/assets/pixel/buildings/turret_base.png",
+    "size": [
+      16,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      55
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0054_Capa-55.png"
+    ],
+    "processing": "gap-fill: edited/recoloured round road detail into metal pedestal, black front rim.",
+    "sha256": "21bbc6d741d6149f47dadca11303aba0035c6540292d7fed5e19e8db182735ad",
+    "pivot": [
+      8,
+      8
+    ]
+  },
+  {
+    "file": "game/assets/pixel/buildings/turret_barrel_down.png",
+    "size": [
+      16,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      335,
+      332
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0334_Capa-335.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0331_Capa-332.png"
+    ],
+    "processing": "gap-fill: edited/recoloured pistol and shotgun barrel, hand-placed axial facings; four discrete directions, shared mount pivot; no rotation.",
+    "sha256": "0a1f8d9fb785a4ce39893973e9ef28cb6c26a25b635c48e1ae4f2d9b46ab5c68",
+    "pivot": [
+      8,
+      8
+    ]
+  },
+  {
+    "file": "game/assets/pixel/buildings/turret_barrel_left.png",
+    "size": [
+      16,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      335,
+      332
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0334_Capa-335.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0331_Capa-332.png"
+    ],
+    "processing": "gap-fill: edited/recoloured pistol and shotgun barrel, hand-placed axial facings; four discrete directions, shared mount pivot; no rotation.",
+    "sha256": "f80484473db185436e973d5b51cb442f4694ad1e061edb9476de48158b2c8e1e",
+    "pivot": [
+      8,
+      8
+    ]
+  },
+  {
+    "file": "game/assets/pixel/buildings/turret_barrel_up.png",
+    "size": [
+      16,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      335,
+      332
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0334_Capa-335.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0331_Capa-332.png"
+    ],
+    "processing": "gap-fill: edited/recoloured pistol and shotgun barrel, hand-placed axial facings; four discrete directions, shared mount pivot; no rotation.",
+    "sha256": "c77d021c774f791d7d649848d45e68e3839dadeec045db2e226bcdf5c6db90e6",
+    "pivot": [
+      8,
+      8
+    ]
+  },
+  {
+    "file": "game/assets/pixel/buildings/turret_barrel_right.png",
+    "size": [
+      16,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      335,
+      332
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0334_Capa-335.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0331_Capa-332.png"
+    ],
+    "processing": "gap-fill: edited/recoloured pistol and shotgun barrel, hand-placed axial facings; four discrete directions, shared mount pivot; no rotation.",
+    "sha256": "ecbaab3cdd4433778d8a975b025ec8c915cb78b3cd195df9b59d72e0397bdeb7",
+    "pivot": [
+      8,
+      8
+    ]
+  },
+  {
+    "file": "game/assets/pixel/buildings/radio_tower.png",
+    "size": [
+      32,
+      48
+    ],
+    "cell": [
+      32,
+      48
+    ],
+    "ids": [
+      356,
+      210,
+      211,
+      94,
+      104
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0355_Capa-356.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0209_Capa-210.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0210_Capa-211.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0093_Capa-94.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0103_Capa-104.png"
+    ],
+    "processing": "gap-fill: edited/recombined small-building roof/front, recoloured fence footings and radio equipment; hand-placed tapered lattice and antenna. 104/211 are companion material references. Bottom 32x32 footprint, overhang above.",
+    "sha256": "086e6f8f8f1805396b9bf0d5e6c04070f5dbc2a6c667c96e3065cb767110b12c",
+    "footprint": [
+      32,
+      32
+    ],
+    "anchor": [
+      16,
+      48
+    ]
+  },
+  {
+    "file": "game/assets/pixel/buildings/watchtower.png",
+    "size": [
+      16,
+      32
+    ],
+    "cell": [
+      16,
+      32
+    ],
+    "ids": [
+      207,
+      209,
+      210,
+      211,
+      214
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0206_Capa-207.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0208_Capa-209.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0209_Capa-210.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0210_Capa-211.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0213_Capa-214.png"
+    ],
+    "processing": "gap-fill: edited/recombined fence posts and rail slices; hand-placed deck top/front, dark underside band and cross braces. Elevated open guard platform; bottom 16x16 footprint.",
+    "sha256": "a5c9d2349954f756e73ce92402707bc18146d817cad2097b073f41afd6adc0c5",
+    "footprint": [
+      16,
+      16
+    ],
+    "anchor": [
+      8,
+      32
+    ]
+  },
+  {
+    "file": "game/assets/pixel/props/rock_a.png",
+    "size": [
+      16,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      290,
+      65
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Spawning Item Box Animation Frames + Broken Box Pieces/Zombie-Tileset---_0289_Capa-290.png",
+      "asset_library/ittaimanero/sprites/Terrain wall/Zombie-Tileset---_0064_Capa-65.png"
+    ],
+    "processing": "gap-fill: edited/recoloured debris fragment; hand-placed solid grey stone top/front facets and pack black contour. Terrain wall 65 is a material/outline reference.",
+    "sha256": "3006a5f196fa2c724f8df703c559abf1bba17c4799c580798f6209109f28d2fc"
+  },
+  {
+    "file": "game/assets/pixel/props/rock_b.png",
+    "size": [
+      16,
+      16
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "ids": [
+      290,
+      65
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Spawning Item Box Animation Frames + Broken Box Pieces/Zombie-Tileset---_0289_Capa-290.png",
+      "asset_library/ittaimanero/sprites/Terrain wall/Zombie-Tileset---_0064_Capa-65.png"
+    ],
+    "processing": "gap-fill: edited/recoloured debris fragment; hand-placed solid grey stone top/front facets and pack black contour. Terrain wall 65 is a material/outline reference.",
+    "sha256": "cfbfa8b0e9eb35dda9887ca495fb0bf676eb09fa969706e2377d7146451c8420"
+  },
+  {
+    "file": "game/assets/pixel/fx/helicopter_body_left.png",
+    "size": [
+      48,
+      32
+    ],
+    "cell": [
+      48,
+      32
+    ],
+    "ids": [
+      167,
+      171,
+      221
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Drivable Car with 8 Directions/Zombie-Tileset---_0166_Capa-167.png",
+      "asset_library/ittaimanero/sprites/Drivable Car with 8 Directions/Zombie-Tileset---_0170_Capa-171.png",
+      "asset_library/ittaimanero/sprites/Windmill with Fan Animation Frames/Zombie-Tileset---_0220_Capa-221.png"
+    ],
+    "processing": "gap-fill: edited car 167 cabin; hand-placed fuselage top/front, cockpit, tail and skids; 171 and fan 221 are material references. Left-facing fly-in.",
+    "sha256": "54afcdd92424ad54674c5a7c249d0c073b7e728fcc564717eeb753c7f2b061be",
+    "hub": [
+      24,
+      16
+    ]
+  },
+  {
+    "file": "game/assets/pixel/fx/helicopter_body_right.png",
+    "size": [
+      48,
+      32
+    ],
+    "cell": [
+      48,
+      32
+    ],
+    "ids": [
+      167,
+      171,
+      221
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Drivable Car with 8 Directions/Zombie-Tileset---_0166_Capa-167.png",
+      "asset_library/ittaimanero/sprites/Drivable Car with 8 Directions/Zombie-Tileset---_0170_Capa-171.png",
+      "asset_library/ittaimanero/sprites/Windmill with Fan Animation Frames/Zombie-Tileset---_0220_Capa-221.png"
+    ],
+    "processing": "gap-fill: edited: exact whole-cell mirror of left; symmetric central mast.",
+    "sha256": "7689375fcb7e233d8640f6ac6059d49637cab29ba66351a40f3a0fbc54deb165",
+    "hub": [
+      24,
+      16
+    ]
+  },
+  {
+    "file": "game/assets/pixel/fx/helicopter_rotor.png",
+    "size": [
+      144,
+      48
+    ],
+    "cell": [
+      48,
+      48
+    ],
+    "ids": [
+      223,
+      224,
+      225
+    ],
+    "sources": [
+      "asset_library/ittaimanero/sprites/Windmill with Fan Animation Frames/Zombie-Tileset---_0222_Capa-223.png",
+      "asset_library/ittaimanero/sprites/Windmill with Fan Animation Frames/Zombie-Tileset---_0223_Capa-224.png",
+      "asset_library/ittaimanero/sprites/Windmill with Fan Animation Frames/Zombie-Tileset---_0224_Capa-225.png"
+    ],
+    "processing": "gap-fill: hand-placed edited fan vocabulary in horizontal 3/4 plane; three discrete blade phases with constant central hub; no rotation/blur.",
+    "sha256": "c53dd463476030abc8ec84eae3363bbf44dde4409c303918efed2cf22d3d77fa",
+    "hub": [
+      24,
+      24
+    ]
+  }
+]

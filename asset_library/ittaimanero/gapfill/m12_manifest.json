@@ -1,0 +1,229 @@
+{
+  "assets": [
+    {
+      "file": "game/assets/pixel/buildings/field_lab.png",
+      "size": [
+        32,
+        32
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0093_Capa-94.png",
+        "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0103_Capa-104.png",
+        "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0092_Capa-93.png",
+        "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0104_Capa-105.png",
+        "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0091_Capa-92.png",
+        "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0097_Capa-98.png"
+      ],
+      "processing": "Small-building shell; crop four plain wall rows for dish clearance; olive plaster remap; hand-pixel lit desk/window, papers, flask and compact dish. Native 32x32, bottom anchor y31.",
+      "sha256": "b454ff1ea865484efa957c9adb31351859e8fa0fa642a1a05fb4fda7471dc052"
+    },
+    {
+      "file": "game/assets/pixel/buildings/campfire.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Terrain wall/Zombie-Tileset---_0064_Capa-65.png",
+        "asset_library/ittaimanero/sprites/Trees/Zombie-Tileset---_0139_Capa-140.png"
+      ],
+      "processing": "Terrain-wall stone texture remapped to pack greys; cropped mirrored native cut logs, hand-edited ring; unlit 16x16 blueprint/build-bar base.",
+      "sha256": "1b53b9709f8026e246551f1650aa481e9e1901bc9da2c3c6399c3f63dafab988"
+    },
+    {
+      "file": "game/assets/pixel/buildings/campfire_lit.png",
+      "size": [
+        64,
+        16
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Terrain wall/Zombie-Tileset---_0064_Capa-65.png",
+        "asset_library/ittaimanero/sprites/Trees/Zombie-Tileset---_0139_Capa-140.png",
+        "asset_library/ittaimanero/sprites/Explosion Animation Frames/Zombie-Tileset---_0359_Capa-360.png",
+        "asset_library/ittaimanero/sprites/Smoke Animation Frames/Zombie-Tileset---_0326_Capa-327.png"
+      ],
+      "processing": "Fixed base; clipped/recoloured explosion pixels in four edited flame masks; small cropped smoke puff travels a closed 2x2 cycle. Frames medium/tall/medium/short, 0-1-2-3 repeat; suggested 8 FPS.",
+      "sha256": "7486c15da2a6bb887426f02ffde62dad98561c4554d04b641d0ffb3bd6730019"
+    },
+    {
+      "file": "game/assets/pixel/ui/icon_mood_inspired.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [],
+      "processing": "Inspired mood badge; hand-placed pack-palette pixels, one-pixel black contours; style reference icon_survivors.png.",
+      "sha256": "540f1ff0a125ffae35487776a663141b0a2eec586aadc96dc464a06fad643e62"
+    },
+    {
+      "file": "game/assets/pixel/ui/x2/icon_mood_inspired.png",
+      "size": [
+        32,
+        32
+      ],
+      "sources": [],
+      "processing": "Exact 2x nearest copy of ui/icon_mood_inspired.png.",
+      "sha256": "c6db2659e919c31ef60ae8793f1bf3a91f2e1e61da195bf32375958a451b2f26"
+    },
+    {
+      "file": "game/assets/pixel/ui/icon_mood_steady.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [],
+      "processing": "Steady mood badge; hand-placed pack-palette pixels, one-pixel black contours; style reference icon_survivors.png.",
+      "sha256": "f0c020ddeb88d26e6c3ca74adcdffaa4d2076dff94f59a3045e41ee151ed527d"
+    },
+    {
+      "file": "game/assets/pixel/ui/x2/icon_mood_steady.png",
+      "size": [
+        32,
+        32
+      ],
+      "sources": [],
+      "processing": "Exact 2x nearest copy of ui/icon_mood_steady.png.",
+      "sha256": "943772b9a6f589d1bd4f57725cdcfc9a66ef0f4a0e1e435a881265900636e336"
+    },
+    {
+      "file": "game/assets/pixel/ui/icon_mood_low.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [],
+      "processing": "Low mood badge; hand-placed pack-palette pixels, one-pixel black contours; style reference icon_survivors.png.",
+      "sha256": "bd65555433350c0fb2362df3368141dfcf404ad9a1d42fca1bcce0cc52270a96"
+    },
+    {
+      "file": "game/assets/pixel/ui/x2/icon_mood_low.png",
+      "size": [
+        32,
+        32
+      ],
+      "sources": [],
+      "processing": "Exact 2x nearest copy of ui/icon_mood_low.png.",
+      "sha256": "d037589c7509a828fb5683138aed489a676a8d64bacda5ef86ae86e40cc97a2d"
+    },
+    {
+      "file": "game/assets/pixel/ui/icon_mood_breaking.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [],
+      "processing": "Breaking mood badge; hand-placed pack-palette pixels, one-pixel black contours; style reference icon_survivors.png.",
+      "sha256": "d251a0b88b44b28320399b80d30a308c457ce1b2ebd76163909d1201850f7af2"
+    },
+    {
+      "file": "game/assets/pixel/ui/x2/icon_mood_breaking.png",
+      "size": [
+        32,
+        32
+      ],
+      "sources": [],
+      "processing": "Exact 2x nearest copy of ui/icon_mood_breaking.png.",
+      "sha256": "8fe6eb5e5843ef44e8a73f755720251b62a1e7a39d730aa0998adaeef02b6910"
+    },
+    {
+      "file": "game/assets/pixel/ui/icon_research.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [],
+      "processing": "Research points: wide-bottom laboratory flask; hand-placed pack-palette pixels, one-pixel black contours; style reference icon_survivors.png.",
+      "sha256": "55a842e9e8bec209fddadc3f5481f7e596817fb92c383beb7c9f532c91de7543"
+    },
+    {
+      "file": "game/assets/pixel/ui/x2/icon_research.png",
+      "size": [
+        32,
+        32
+      ],
+      "sources": [],
+      "processing": "Exact 2x nearest copy of ui/icon_research.png.",
+      "sha256": "d880c810bf0a7a7f714e0f00b51c47814b4a678277b807001e63b097cfc29127"
+    },
+    {
+      "file": "game/assets/pixel/ui/icon_tech_defense.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [],
+      "processing": "Defense branch: pointed metal shield; hand-placed pack-palette pixels, one-pixel black contours; style reference icon_survivors.png.",
+      "sha256": "2af7c2643fdd0e9d9f6a234fe5d111b2ceb9add4aa28524a0994d63b894c0b0d"
+    },
+    {
+      "file": "game/assets/pixel/ui/x2/icon_tech_defense.png",
+      "size": [
+        32,
+        32
+      ],
+      "sources": [],
+      "processing": "Exact 2x nearest copy of ui/icon_tech_defense.png.",
+      "sha256": "5dca975e7a178efdd7896707dee8c7ac7ef3a1ca0f80d5c6b5482c5b1a14c478"
+    },
+    {
+      "file": "game/assets/pixel/ui/icon_tech_economy.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [],
+      "processing": "Economy branch: broad horizontal hammer and wood handle; hand-placed pack-palette pixels, one-pixel black contours; style reference icon_survivors.png.",
+      "sha256": "9d0fe071b36e28da0f23e02b7b4fcd5eb656497072e860657747db9f5571d815"
+    },
+    {
+      "file": "game/assets/pixel/ui/x2/icon_tech_economy.png",
+      "size": [
+        32,
+        32
+      ],
+      "sources": [],
+      "processing": "Exact 2x nearest copy of ui/icon_tech_economy.png.",
+      "sha256": "088d9edf28ff4f5db1f0bb9f57d8afec799a4b4ef020a5361ebf73003113cc17"
+    },
+    {
+      "file": "game/assets/pixel/ui/icon_tech_survivors.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [],
+      "processing": "Survivors branch: paired staggered heads and shoulders; hand-placed pack-palette pixels, one-pixel black contours; style reference icon_survivors.png.",
+      "sha256": "18aa96d5a42652d6705da6de59b08cf7df93e7d226207c50e6613ca696c21947"
+    },
+    {
+      "file": "game/assets/pixel/ui/x2/icon_tech_survivors.png",
+      "size": [
+        32,
+        32
+      ],
+      "sources": [],
+      "processing": "Exact 2x nearest copy of ui/icon_tech_survivors.png.",
+      "sha256": "7084c63eb8ade8f85e1cc1d88b9bb25eab2a9925f34077df9171559ee7afcb4a"
+    }
+  ],
+  "palette_colors": 41,
+  "alpha": [
+    0,
+    255
+  ],
+  "existing_pngs_unchanged": 312,
+  "campfire_adjacent_changed_pixels_including_wrap": [
+    12,
+    13,
+    13,
+    14
+  ],
+  "four_unique_frames": true,
+  "base_bottom_three_rows_fixed": true,
+  "exact_2x_copies": 8,
+  "night_tint": [
+    0.55,
+    0.6,
+    0.8
+  ]
+}

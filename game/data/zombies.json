@@ -1,0 +1,48 @@
+{
+  "walker": {
+    "hp": 40,
+    "speed": 45,
+    "damage": 6,
+    "attack_rate": 1.0,
+    "first_night": 1,
+    "target_priority": "command_center",
+    "scale": 1.0,
+    "tint": "ffffff"
+  },
+  "runner": {
+    "hp": 25,
+    "speed": 95,
+    "damage": 4,
+    "attack_rate": 1.5,
+    "first_night": 4,
+    "target_priority": "survivors",
+    "scale": 0.9,
+    "tint": "e0e0e0"
+  },
+  "brute": {
+    "hp": 200,
+    "speed": 36,
+    "damage": 25,
+    "attack_rate": 0.7,
+    "first_night": 11,
+    "target_priority": "structures",
+    "scale": 1.5,
+    "tint": "8b0000"
+  },
+  "spitter": {
+    "hp": 40,
+    "speed": 40,
+    "damage": 4,
+    "attack_rate": 0.5,
+    "first_night": 8,
+    "target_priority": "defences",
+    "scale": 1.0,
+    "tint": "9fdc5a",
+    "ranged": {
+      "range_tiles": 2,
+      "damage": 6,
+      "interval": 2.0,
+      "projectile_speed": 160
+    }
+  }
+}

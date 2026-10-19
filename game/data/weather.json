@@ -1,0 +1,1 @@
+{"rain": {"first_day": 2, "chance": 0.15, "farm_mult": 1.5}, "fog": {"first_night": 5, "chance": 0.10, "range_delta_tiles": -1.0, "never_final": true, "no_repeat": true}}

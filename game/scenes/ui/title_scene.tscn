@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/title_scene.gd" id="1_script"]
+
+[node name="TitleScene" type="SubViewportContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture_filter = 1
+stretch = true
+stretch_shrink = 4
+script = ExtResource("1_script")
+
+[node name="Viewport" type="SubViewport" parent="."]
+size = Vector2i(320, 180)
+disable_3d = true
+handle_input_locally = false
+canvas_item_default_texture_filter = 0
+render_target_update_mode = 4
+
+[node name="Stage" type="Node2D" parent="Viewport"]
+texture_filter = 1
+
+[node name="Dusk" type="CanvasModulate" parent="Viewport/Stage"]
+color = Color(1, 0.86, 0.72, 1)
+
+[node name="Ground" type="Node2D" parent="Viewport/Stage"]
+
+[node name="Actors" type="Node2D" parent="Viewport/Stage"]
+y_sort_enabled = true
+
+[node name="Effects" type="Node2D" parent="Viewport/Stage"]

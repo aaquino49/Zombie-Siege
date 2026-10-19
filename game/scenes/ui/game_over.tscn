@@ -1,0 +1,86 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/game_over_screen.gd" id="1_script"]
+
+[node name="GameOverScreen" type="CanvasLayer"]
+layer = 20
+visible = false
+script = ExtResource("1_script")
+
+[node name="Dim" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+color = Color(0, 0, 0, 0.55)
+
+[node name="Center" type="CenterContainer" parent="Dim"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Panel" type="PanelContainer" parent="Dim/Center"]
+custom_minimum_size = Vector2(760, 0)
+layout_mode = 2
+
+[node name="Margin" type="MarginContainer" parent="Dim/Center/Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 28
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 28
+
+[node name="Content" type="VBoxContainer" parent="Dim/Center/Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Title" type="Label" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+text = "THE COLONY HAS FALLEN"
+horizontal_alignment = 1
+
+[node name="Reason" type="Label" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+horizontal_alignment = 1
+
+[node name="Difficulty" type="Label" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+text = "Difficulty: Normal"
+horizontal_alignment = 1
+
+[node name="Separator" type="HSeparator" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+
+[node name="Stats" type="GridContainer" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+theme_override_constants/h_separation = 32
+theme_override_constants/v_separation = 10
+columns = 2
+
+[node name="RecordLine" type="Label" parent="Dim/Center/Panel/Margin/Content"]
+visible = false
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Buttons" type="VBoxContainer" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Restart" type="Button" parent="Dim/Center/Panel/Margin/Content/Buttons"]
+custom_minimum_size = Vector2(320, 48)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Restart"
+
+[node name="MainMenu" type="Button" parent="Dim/Center/Panel/Margin/Content/Buttons"]
+custom_minimum_size = Vector2(320, 48)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Main Menu"

@@ -1,0 +1,35 @@
+{
+  "baseline": 50,
+  "bands": [
+    {"id":"inspired","name":"Inspired","min":75,"work_mult":1.15,"hit_chance":1.0},
+    {"id":"steady","name":"Steady","min":40,"work_mult":1.0,"hit_chance":1.0},
+    {"id":"low","name":"Low","min":20,"work_mult":0.85,"hit_chance":0.85},
+    {"id":"breaking","name":"Breaking","min":0,"work_mult":0.7,"hit_chance":0.7}
+  ],
+  "moods": {
+    "bed":{"label":"Slept in a bed","value":5,"days":1,"stack":1},
+    "no_bed":{"label":"No bed","value":-10,"days":1,"stack":1},
+    "sheltered":{"label":"Safe indoors","value":2,"days":1,"stack":1},
+    "hungry":{"label":"Hungry","value":-15,"days":1,"stack":1},
+    "hurt":{"label":"Badly hurt","value":-8,"days":1,"stack":1},
+    "campfire":{"label":"Warm campfire","value":6,"days":1,"stack":1},
+    "quiet_night":{"label":"Quiet night","value":4,"days":1,"stack":1},
+    "rough_night":{"label":"Rough night","value":-6,"days":1,"stack":1},
+    "fresh_start":{"label":"Fresh start","value":10,"days":2,"stack":1},
+    "new_home":{"label":"Found a safe place","value":10,"days":2,"stack":1},
+    "newcomers":{"label":"New faces","value":4,"days":2,"stack":1},
+    "death":{"label":"{name} died","value":-12,"days":3,"stack":2},
+    "left":{"label":"{name} left","value":-6,"days":2,"stack":2},
+    "scavenged":{"label":"Back from a run","value":8,"days":2,"stack":1},
+    "feast":{"label":"Feast","value":10,"days":3,"stack":1},
+    "day_off":{"label":"Day off","value":12,"days":2,"stack":1},
+    "radio_tower":{"label":"The Radio Tower is up","value":10,"days":5,"stack":1},
+    "rescued":{"label":"Rescue came","value":20,"days":5,"stack":1},
+    "still_standing":{"label":"Still standing","value":8,"days":3,"stack":1}
+  },
+  "campfire_slots":6,
+  "feast":{"food_per_survivor":2,"cooldown_days":3},
+  "day_off_morning_fraction":0.4,
+  "breaking":{"leave_after_dawns":2,"max_leavers_per_dawn":1},
+  "endless_milestone_every":5
+}

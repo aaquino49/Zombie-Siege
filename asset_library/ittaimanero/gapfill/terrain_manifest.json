@@ -1,0 +1,498 @@
+{
+  "ground": "#949974",
+  "ground_speckle": "#8e886a",
+  "dirt": "#47352c",
+  "dirt_speckle": "#504433",
+  "dirt_pebble": "#77664e",
+  "edge_profile": [
+    3,
+    3,
+    2,
+    2,
+    4,
+    5,
+    4,
+    3,
+    3,
+    4,
+    5,
+    4,
+    2,
+    2,
+    3,
+    3
+  ],
+  "texture_max_fraction": 0.1,
+  "palette_exact": true,
+  "binary_alpha": true,
+  "assets": [
+    {
+      "file": "game/assets/pixel/terrain/grass_1.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-123: source ground #47352c -> #949974; source speckle #77664e -> #8e886a; preserve black blades/flowers and petal pixels; native 16x16.",
+      "sha256": "140ad9c19a45fbcfb0cd79aa3fb7d7dfbb065dd6cc4d2f867da1f98d629102f2"
+    },
+    {
+      "file": "game/assets/pixel/terrain/grass_2.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        79
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0078_Capa-79.png"
+      ],
+      "processing": "T-123: source ground #47352c -> #949974; source speckle #77664e -> #8e886a; preserve black blades/flowers and petal pixels; native 16x16.",
+      "sha256": "140ad9c19a45fbcfb0cd79aa3fb7d7dfbb065dd6cc4d2f867da1f98d629102f2"
+    },
+    {
+      "file": "game/assets/pixel/terrain/grass_3.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        80
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0079_Capa-80.png"
+      ],
+      "processing": "T-123: source ground #47352c -> #949974; source speckle #77664e -> #8e886a; preserve black blades/flowers and petal pixels; native 16x16.",
+      "sha256": "312e1262ffa76ebefaed4b74e68c946478e19025c64c197aa04cb2497444791b"
+    },
+    {
+      "file": "game/assets/pixel/terrain/grass_4.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        81
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0080_Capa-81.png"
+      ],
+      "processing": "T-123: source ground #47352c -> #949974; source speckle #77664e -> #8e886a; preserve black blades/flowers and petal pixels; native 16x16.",
+      "sha256": "75349cd7d1849b1a85897e88326abaa0ec1ee3bf1655658f154f354e670b30ad"
+    },
+    {
+      "file": "game/assets/pixel/terrain/flowers_1.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        118
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Grass with Flowers/Zombie-Tileset---_0117_Capa-118.png"
+      ],
+      "processing": "T-123: source ground #47352c -> #949974; source speckle #77664e -> #8e886a; preserve black blades/flowers and petal pixels; native 16x16.",
+      "sha256": "f56c49c9fef3fbbe3531310d189245f3f7db3c61c287f3b49993df1d211c6d73"
+    },
+    {
+      "file": "game/assets/pixel/terrain/flowers_2.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        218
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Grass with Flowers/Zombie-Tileset---_0217_Capa-218.png"
+      ],
+      "processing": "T-123: source ground #47352c -> #949974; source speckle #77664e -> #8e886a; preserve black blades/flowers and petal pixels; native 16x16.",
+      "sha256": "7deb5900eff256f1c02008b4f2f67f83cab0ba369ded78eee6745395d3c1b518"
+    },
+    {
+      "file": "game/assets/pixel/terrain/dirt.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        66,
+        68,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0065_Capa-66.png",
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: dark #47352c; fixed sparse #504433 specks and #77664e pebbles, <=10% of dirt pixels.",
+      "sha256": "3464f939435298c247628c4808b1ef71c8017e88b660c2c1237376c261e096c4"
+    },
+    {
+      "file": "game/assets/pixel/terrain/dirt_2.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        66,
+        68,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0065_Capa-66.png",
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: dark #47352c; fixed sparse #504433 specks and #77664e pebbles, <=10% of dirt pixels.",
+      "sha256": "bff2ead22d570ce3fd8b7dd59dee8714fc41b83ca0c2f3508775c8d29d9e9833"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_center.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        66,
+        68,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0065_Capa-66.png",
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: #47352c dirt / #949974 ground; shared 2-5px stepped inset, 3px matching endpoints; broken #504433 inner rim, sparse specks and #77664e pebbles <=10%.",
+      "sha256": "3464f939435298c247628c4808b1ef71c8017e88b660c2c1237376c261e096c4"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_edge_n.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        68,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: #47352c dirt / #949974 ground; shared 2-5px stepped inset, 3px matching endpoints; broken #504433 inner rim, sparse specks and #77664e pebbles <=10%.",
+      "sha256": "241b704994c3257e8a47f39e00eba554b13167181d76aa43a2f6cca2171f8d1e"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_edge_e.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        69,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0068_Capa-69.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: #47352c dirt / #949974 ground; shared 2-5px stepped inset, 3px matching endpoints; broken #504433 inner rim, sparse specks and #77664e pebbles <=10%.",
+      "sha256": "42459348571c0f977ad2f9f2518ed8558553dcab085380811427cdb4762d85fa"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_edge_s.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        68,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: #47352c dirt / #949974 ground; shared 2-5px stepped inset, 3px matching endpoints; broken #504433 inner rim, sparse specks and #77664e pebbles <=10%.",
+      "sha256": "389020333cd21e81dececb1d903ca7979ba1a9fc4461a0d631a8483f72953a53"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_edge_w.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        69,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0068_Capa-69.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: #47352c dirt / #949974 ground; shared 2-5px stepped inset, 3px matching endpoints; broken #504433 inner rim, sparse specks and #77664e pebbles <=10%.",
+      "sha256": "33495f38ba9411ae816458ad0b7c4d8cb16512d3076357b924f0a271a1ad3876"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_outer_ne.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        72,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0071_Capa-72.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: #47352c dirt / #949974 ground; shared 2-5px stepped inset, 3px matching endpoints; broken #504433 inner rim, sparse specks and #77664e pebbles <=10%.",
+      "sha256": "0e808e8460f7316d7e46a82b8f8f4f6d4d3b93edfc79116897b3ceb7d18d99ec"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_outer_nw.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        75,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0074_Capa-75.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: #47352c dirt / #949974 ground; shared 2-5px stepped inset, 3px matching endpoints; broken #504433 inner rim, sparse specks and #77664e pebbles <=10%.",
+      "sha256": "d9af23dac2202cd63e0e7cc0dd64f154b31e82623d504c73ca70d7d0e648c746"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_outer_se.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        71,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0070_Capa-71.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: #47352c dirt / #949974 ground; shared 2-5px stepped inset, 3px matching endpoints; broken #504433 inner rim, sparse specks and #77664e pebbles <=10%.",
+      "sha256": "18ce26fd12b9eea778985507c049bb1ab0dfb49bf571c2e4dae5def08e0ae41d"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_outer_sw.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        74,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0073_Capa-74.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: #47352c dirt / #949974 ground; shared 2-5px stepped inset, 3px matching endpoints; broken #504433 inner rim, sparse specks and #77664e pebbles <=10%.",
+      "sha256": "25ed17455350d04fc3695d635c9ff966305524a5c7bb9e11f0eaaee992665a7d"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_inner_ne.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        72,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0071_Capa-72.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: #47352c dirt / #949974 ground; shared 2-5px stepped inset, 3px matching endpoints; broken #504433 inner rim, sparse specks and #77664e pebbles <=10%.",
+      "sha256": "3b5d006cf22e2cf77f237f9e40698ddd9e5771ccd36e305a69101ad9f5754ebf"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_inner_nw.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        75,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0074_Capa-75.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: #47352c dirt / #949974 ground; shared 2-5px stepped inset, 3px matching endpoints; broken #504433 inner rim, sparse specks and #77664e pebbles <=10%.",
+      "sha256": "d9a1068ec57b3ba56c9f94e4bdd8371fa029d519b9635229f44c88827c83b30b"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_inner_se.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        71,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0070_Capa-71.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: #47352c dirt / #949974 ground; shared 2-5px stepped inset, 3px matching endpoints; broken #504433 inner rim, sparse specks and #77664e pebbles <=10%.",
+      "sha256": "ad1613c60a1df9e79ca9f0dfa145ea8f21171fdd8d106f1019dd640a65ec831e"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_inner_sw.png",
+      "size": [
+        16,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        74,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0073_Capa-74.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: #47352c dirt / #949974 ground; shared 2-5px stepped inset, 3px matching endpoints; broken #504433 inner rim, sparse specks and #77664e pebbles <=10%.",
+      "sha256": "75d36b53ba823678a7c1ea2f34f88a3b6b7bb302d0c3b87ecbdde8e62fdbb97c"
+    },
+    {
+      "file": "game/assets/pixel/terrain/path_boundary.png",
+      "size": [
+        208,
+        16
+      ],
+      "cell": [
+        16,
+        16
+      ],
+      "ids": [
+        66,
+        68,
+        69,
+        71,
+        72,
+        74,
+        75,
+        78
+      ],
+      "sources": [
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0065_Capa-66.png",
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png",
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0068_Capa-69.png",
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0070_Capa-71.png",
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0071_Capa-72.png",
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0073_Capa-74.png",
+        "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0074_Capa-75.png",
+        "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+      ],
+      "processing": "T-142: exact 13 textured native cells in unchanged PathTiles.SUFFIXES order: center, edge_n, edge_e, edge_s, edge_w, outer_ne, outer_nw, outer_se, outer_sw, inner_ne, inner_nw, inner_se, inner_sw",
+      "sha256": "6451e476d7d03cd68525a7b4ce87c0296c1e159d314b2e0eb52ac80f49e2f19f"
+    }
+  ]
+}

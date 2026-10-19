@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/roster_panel.gd" id="1_scr"]
+
+[node name="RosterPanel" type="CanvasLayer"]
+script = ExtResource("1_scr")
+
+[node name="ToggleButton" type="Button" parent="."]
+offset_left = 8.0
+offset_top = 56.0
+offset_right = 128.0
+offset_bottom = 88.0
+text = "Survivors (R)"
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -728.0
+offset_top = 142.0
+offset_right = -8.0
+offset_bottom = 56.0
+grow_horizontal = 0
+
+[node name="VBox" type="VBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="HeaderLabel" type="Label" parent="PanelContainer/VBox"]
+layout_mode = 2
+text = "Survivors (0)"
+horizontal_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PanelContainer/VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Rows" type="VBoxContainer" parent="PanelContainer/VBox/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3

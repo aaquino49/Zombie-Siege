@@ -1,0 +1,19 @@
+{
+  "rp_per_researcher_per_day": 10,
+  "branches": [
+    {"id": "defense", "name": "Defense", "icon": "icon_tech_defense"},
+    {"id": "economy", "name": "Economy", "icon": "icon_tech_economy"},
+    {"id": "survivors", "name": "Survivors", "icon": "icon_tech_survivors"}
+  ],
+  "upgrades": {
+    "spotters": {"branch":"defense","tier":1,"name":"Spotters","cost":20,"requires":[],"effect":{"key":"guard_range_tiles","op":"add","value":1.0},"text":"Guards see 1 tile further."},
+    "oiled_turrets": {"branch":"defense","tier":2,"name":"Oiled Turrets","cost":35,"requires":["spotters"],"effect":{"key":"turret_fire_interval","op":"mult","value":0.8},"text":"Turrets fire 25% faster."},
+    "reinforced_frames": {"branch":"defense","tier":3,"name":"Reinforced Frames","cost":50,"requires":["oiled_turrets"],"effect":{"key":"structure_damage_taken","op":"mult","value":0.75},"text":"Buildings take 25% less damage."},
+    "better_tools": {"branch":"economy","tier":1,"name":"Better Tools","cost":20,"requires":[],"effect":{"key":"gather_time","op":"mult","value":0.8},"text":"Gatherers work 25% faster."},
+    "crop_rotation": {"branch":"economy","tier":2,"name":"Crop Rotation","cost":35,"requires":["better_tools"],"effect":{"key":"farm_food","op":"mult","value":1.25},"text":"Farms grow 25% more food."},
+    "ammo_press": {"branch":"economy","tier":3,"name":"Ammo Press","cost":50,"requires":["crop_rotation"],"effect":{"key":"ammo_per_scrap","op":"add","value":3},"text":"Workshops make 3 more ammo per scrap."},
+    "camp_songs": {"branch":"survivors","tier":1,"name":"Camp Songs","cost":20,"requires":[],"effect":{"key":"campfire_morale","op":"mult","value":1.5},"text":"Campfires give 50% more morale."},
+    "first_aid": {"branch":"survivors","tier":2,"name":"First Aid","cost":35,"requires":["camp_songs"],"effect":{"key":"dawn_heal","op":"add","value":10},"text":"Survivors heal 10 HP each dawn."},
+    "bunk_beds": {"branch":"survivors","tier":3,"name":"Bunk Beds","cost":50,"requires":["first_aid"],"effect":{"key":"shelter_beds","op":"add","value":2},"text":"Each Shelter has 2 extra beds."}
+  }
+}

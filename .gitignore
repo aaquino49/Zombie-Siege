@@ -1,0 +1,44 @@
+# Godot
+game/.godot/
+*.tmp
+Thumbs.db
+desktop.ini
+
+# Orchestrator runtime (logs, prompts, screenshots, live status) - not versioned
+project/runs/
+project/STATUS.md
+project/events.log
+project/STOP
+__pycache__/
+
+# Builds
+builds/
+
+# Agent scratch output (workers keep leaving these in the repo root or game/)
+/screenshot_*.png
+/screenshot_log.txt
+/*.log
+/*_out.txt
+/err*.txt
+/out*.txt
+/smoke*.txt
+/test_output*.txt
+/tests_output*.txt
+/output*.txt
+/temp*.txt
+/tmp_*
+/game/*.log
+/game/*_out.txt
+/game/tmp_*
+/game/dev_compile.gd*
+project/RESTART
+
+# Owner-only settings (ntfy topic): anyone who knows the topic can read and send alerts
+orchestrator/config.local.json
+# Windows shortcuts
+*.lnk
+# Raw Ittai Manero Zombie Apocalypse Tileset: its licence forbids redistributing the pack.
+# Download it from itch.io into these paths; only the processed sprites in game/ are committed.
+asset_library/ittaimanero/sprites/
+asset_library/ittaimanero/Zombie Apocalypse Tileset.psd
+asset_library/ittaimanero/Zombie Apocalypse Tileset Reference.png

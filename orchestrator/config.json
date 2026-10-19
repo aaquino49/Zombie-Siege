@@ -1,0 +1,126 @@
+{
+  "max_attempts": 3,
+  "plan_every_n_done": 6,
+  "agent_timeout_minutes": 60,
+  "stuck_retry_minutes": 60,
+  "godot": "godot",
+  "agents": {
+    "claude": {
+      "cmd": [
+        "claude",
+        "-p",
+        "{prompt}",
+        "--model",
+        "claude-opus-5-5",
+        "--dangerously-skip-permissions"
+      ]
+    },
+    "gemini": {
+      "cmd": [
+        "agy",
+        "-p",
+        "{prompt}",
+        "--model",
+        "gemini-3.1-pro-high",
+        "--dangerously-skip-permissions",
+        "--print-timeout",
+        "55m"
+      ]
+    },
+    "codex": {
+      "cmd": [
+        "codex",
+        "exec",
+        "-m",
+        "gpt-6.1-sol",
+        "--dangerously-bypass-approvals-and-sandbox",
+        "--skip-git-repo-check",
+        "{prompt}",
+        "{images}"
+      ]
+    },
+    "codex_coder": {
+      "cmd": [
+        "codex",
+        "exec",
+        "-m",
+        "gpt-6.1-sol",
+        "-c",
+        "model_reasoning_effort=\"high\"",
+        "--dangerously-bypass-approvals-and-sandbox",
+        "--skip-git-repo-check",
+        "{prompt}",
+        "{images}"
+      ]
+    },
+    "muse": {
+      "cmd": [
+        "opencode",
+        "run",
+        "--auto",
+        "-m",
+        "meta/muse-spark-1.3-contributor",
+        "{prompt}"
+      ]
+    }
+  },
+  "fallback": {
+    "gemini:*": [
+      "codex_coder",
+      "muse"
+    ],
+    "codex:qa": [
+      "gemini",
+      "muse"
+    ],
+    "codex:work-code": [
+      "gemini",
+      "muse"
+    ],
+    "codex:work-qa": [
+      "gemini",
+      "muse"
+    ],
+    "claude:review": [
+      "codex",
+      "muse"
+    ],
+    "claude:plan": [
+      "codex",
+      "muse"
+    ],
+    "claude:work-design": [
+      "codex",
+      "muse"
+    ],
+    "codex_coder:*": [
+      "gemini",
+      "muse"
+    ],
+    "codex:work-asset": [
+      "gemini",
+      "muse"
+    ]
+  },
+  "stop_on_usage_limit": false,
+  "expansion_after_v1": true,
+  "default_limit_minutes": 60,
+  "_fallback_notes": "Quota policy: subscriptions first; Meta Muse Spark 1.3 (contributor tier) via OpenCode, the owner's cheap paid API, is the last resort for every step except art/asset work. Google out -> Codex on GPT-6-Luna codes, then Muse. OpenAI out -> Gemini does QA (then Muse) and art/asset tasks (owner choice, 2026-10-11). Anthropic out -> Codex reviews, then Muse; planning and design go to Muse. Codex QA/assets always use GPT-6.1-Sol.",
+  "probe_every_minutes": 15,
+  "godot_watchdog_minutes": 10,
+  "lane_b": {
+    "enabled": true,
+    "merge_wait_minutes": 120
+  },
+  "stop_after_milestone": "M12",
+  "handoff_at_percent": {
+    "primary": 90,
+    "secondary": 97
+  },
+  "notify": {
+    "ntfy_topic": "",
+    "email": "",
+    "min_minutes_between": 60,
+    "_note": "Owner alerts via ntfy.sh push (phone app subscribed to ntfy_topic). Set ntfy_topic in the untracked orchestrator/config.local.json, never here: anyone who knows the topic can read and send alerts. Email needs a separate channel (ntfy.sh blocks anonymous email)."
+  }
+}

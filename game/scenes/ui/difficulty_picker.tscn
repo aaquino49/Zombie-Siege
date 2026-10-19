@@ -1,0 +1,130 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/difficulty_picker.gd" id="1_script"]
+
+[node name="DifficultyPicker" type="CanvasLayer"]
+process_mode = 3
+layer = 31
+visible = false
+script = ExtResource("1_script")
+
+[node name="Dim" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+color = Color(0, 0, 0, 0.55)
+
+[node name="Center" type="CenterContainer" parent="Dim"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Panel" type="PanelContainer" parent="Dim/Center"]
+custom_minimum_size = Vector2(760, 0)
+layout_mode = 2
+
+[node name="Margin" type="MarginContainer" parent="Dim/Center/Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 28
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 28
+
+[node name="Content" type="VBoxContainer" parent="Dim/Center/Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="Title" type="Label" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+text = "CHOOSE DIFFICULTY"
+horizontal_alignment = 1
+
+[node name="Subtitle" type="Label" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+text = "Choose the size of siege you want."
+horizontal_alignment = 1
+
+[node name="Separator" type="HSeparator" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+
+[node name="Options" type="VBoxContainer" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Easy" type="VBoxContainer" parent="Dim/Center/Panel/Margin/Content/Options"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="Select" type="Button" parent="Dim/Center/Panel/Margin/Content/Options/Easy"]
+custom_minimum_size = Vector2(320, 48)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Easy"
+
+[node name="Description" type="Label" parent="Dim/Center/Panel/Margin/Content/Options/Easy"]
+layout_mode = 2
+text = "Hordes 15% smaller"
+horizontal_alignment = 1
+
+[node name="Normal" type="VBoxContainer" parent="Dim/Center/Panel/Margin/Content/Options"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="Select" type="Button" parent="Dim/Center/Panel/Margin/Content/Options/Normal"]
+custom_minimum_size = Vector2(320, 48)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Normal"
+
+[node name="Description" type="Label" parent="Dim/Center/Panel/Margin/Content/Options/Normal"]
+layout_mode = 2
+text = "The intended siege"
+horizontal_alignment = 1
+
+[node name="Hard" type="VBoxContainer" parent="Dim/Center/Panel/Margin/Content/Options"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="Select" type="Button" parent="Dim/Center/Panel/Margin/Content/Options/Hard"]
+custom_minimum_size = Vector2(320, 48)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Hard"
+
+[node name="Description" type="Label" parent="Dim/Center/Panel/Margin/Content/Options/Hard"]
+layout_mode = 2
+text = "Hordes 20% bigger"
+horizontal_alignment = 1
+
+[node name="SeedRow" type="HBoxContainer" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 12
+
+[node name="Seed" type="Label" parent="Dim/Center/Panel/Margin/Content/SeedRow"]
+custom_minimum_size = Vector2(180, 40)
+layout_mode = 2
+text = "Seed: 12345"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Reroll" type="Button" parent="Dim/Center/Panel/Margin/Content/SeedRow"]
+custom_minimum_size = Vector2(120, 40)
+layout_mode = 2
+text = "Reroll"
+
+[node name="Buttons" type="VBoxContainer" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+
+[node name="Back" type="Button" parent="Dim/Center/Panel/Margin/Content/Buttons"]
+custom_minimum_size = Vector2(320, 48)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Back"

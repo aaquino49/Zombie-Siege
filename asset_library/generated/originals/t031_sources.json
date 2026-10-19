@@ -1,0 +1,68 @@
+{
+  "task": "T-031",
+  "method": "Deterministic Pillow composition of curated Kenney CC0 sprites; no AI generation",
+  "rebuild": "python project/tools/compose_title.py",
+  "seed": 31,
+  "title": {
+    "master": "t031_title_art_2x.png",
+    "size": [
+      1280,
+      720
+    ],
+    "mode": "RGB",
+    "quiet_region": [
+      320,
+      195,
+      960,
+      525
+    ],
+    "processing": "2x composition, uniform dusk tint, flat edge shade bands, Lanczos downscale"
+  },
+  "icon": {
+    "master": "t031_icon_4x.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "ico_sizes": [
+      16,
+      32,
+      48,
+      64,
+      128,
+      256
+    ],
+    "processing": "Alpha-trimmed Command Center plus metal radio fragments on transparent 4x canvas; Lanczos downscale"
+  },
+  "sources_sha256_relative_to_game_assets": {
+    "buildings/command_center.png": "a5665cafa88cf164976c17f0149e3a5413b5a8ba5d95d5460ca86d20945682fc",
+    "buildings/construction_2x2.png": "39921ca0f095ce570a023cfaf9ef2610b2643d9a0fbe0cb72f40dff6ead9488a",
+    "buildings/farm.png": "d213fd936069fe8299bb3a4f7e7625fb76fa3fac565f9023c49e98fa1515f965",
+    "buildings/gate.png": "76395dd81e62eb8551e998e3671e76c703df51dd8bae2069ea392f9fb47c7e58",
+    "buildings/lumber_yard.png": "43dc8a6ce240879eeb80ee6802068875c3e9d47120248019d88a8aa1ee20cdd9",
+    "buildings/radio_tower.png": "bc36521f2e534e0152e91706ba4908a3b5324bc81ca8604efbde43bb71cc72cf",
+    "buildings/shelter.png": "e035ab46a4999b6a1f5f92dd609fe6f527fc0dc858ba1629a25acda7599a8fed",
+    "buildings/storage.png": "f1565f80774e63b31f0df4d7ad08f84a35c973185a96af59b472911f6f15d3fb",
+    "buildings/wall_wood.png": "f40d917f2677dab48fa8d9e6b93e45ea5e0d215fafef4c98d8d7d2cca180f53d",
+    "buildings/watchtower.png": "4fb742d95c67801e92eee4211a1635060236d2a3e63556bff8e8edf33a427aee",
+    "buildings/workshop.png": "633b7380a84e98afd04db77a1130e2c6ef2b5af6017ec016e69166b80b7792fd",
+    "characters/survivor_blue_gun.png": "dcf19cbd6573a11bf8508dbb9e6abf497b4068968c38fe0145f6606558b2ae24",
+    "characters/survivor_brown_stand.png": "16263d6630eefed2de8ee890908997a71b08a0b1e60d8ca6581441dc9dea4670",
+    "characters/zombie_stand.png": "215e8442f1272ce4f34c900b78f267fab05165d47358e4c91735e632f64dd981",
+    "props/rock_1.png": "5ab6f7c146033575b34cae3a7bc58043d1df65292a8aa6c7548c1006b7a4159d",
+    "props/scrap_2.png": "0a812374d163d9880e199dc1d867364e247dafd6a5626d96e9c72e413a168486",
+    "props/scrap_3.png": "0c76eea517c84a6fd55f1c1cad9405024272f81bc999fba8c7de63707a010077",
+    "props/tree_1.png": "f823e08fa2f0c65e4ca3f774691bb0962fe3c72bdcb7d59f0d8447753398039e",
+    "props/tree_2.png": "fdad58c09e1d08bed3f0282f33f99c30d2a21eb8320deda17bd0ad904d9f6c75",
+    "tiles/grass_1.png": "96bd63dff2169d5e8352eb5943e4aac6eba1eec5f524b097c2347ad490be6e20",
+    "tiles/grass_2.png": "8a8974858864bd543579d0eb06a5cab368508ab7d48c854c33928a4ffdd56ec2",
+    "tiles/grass_3.png": "1683286423a0c4151e780761564dd5d355da4d1de931ffaae3d7e652a9c2dbfd",
+    "tiles/path/path_center.png": "641f3a933576e2b585ca4a30de20a7b043106c961bdcf8ed6a6838d4eba32fa2",
+    "tiles/path/path_edge_e.png": "17655d9f3274dc61223846c360d6112a8e934bc1d262ee4c601eea728dfeb72c",
+    "tiles/path/path_edge_n.png": "48bc32c28c8bfc13f0d9480c95a9edce36b0c1cad5d49c65cdf9728d2b4e9663",
+    "tiles/path/path_edge_s.png": "65a4d70f4fa25bc624aa274e644ff3cf688c4368f9c749d42d93c0797576ba2a",
+    "tiles/path/path_edge_w.png": "d4c3176bda426513779e0db3bad6d682790bd07691e0b16dc1f18797c7e37849"
+  },
+  "provenance": "See game/assets/ASSET_INDEX.md and CREDITS.md: Kenney Top-Down Shooter and Tower Defense (Top-Down), CC0"
+}

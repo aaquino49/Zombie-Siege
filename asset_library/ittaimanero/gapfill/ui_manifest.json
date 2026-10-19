@@ -1,0 +1,466 @@
+{
+  "task": "T-108",
+  "assets": {
+    "panel": {
+      "file": "game/assets/pixel/ui/panel.png",
+      "size": [
+        32,
+        22
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "panel",
+      "margins": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "processing": "EMPTY alpha/chamfers and dotted detail, complete side border; palette remap. ",
+      "sha256": "10bf2b11d8dd0b45dfee1a6821c95ab3cb5d81451a42de75adde4739dcfa9809"
+    },
+    "panel_inset": {
+      "file": "game/assets/pixel/ui/panel_inset.png",
+      "size": [
+        32,
+        22
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "panel inset",
+      "margins": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "processing": "EMPTY alpha/chamfers and dotted detail, complete side border; palette remap. Interior bevel inset 1 source pixel.",
+      "sha256": "373a8f7d075117f6a9a6f7f0394b1ba0cca9e8b78d76ab60c0989b0c868f9210"
+    },
+    "button_normal": {
+      "file": "game/assets/pixel/ui/button_normal.png",
+      "size": [
+        32,
+        22
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "button normal",
+      "margins": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "processing": "EMPTY alpha/chamfers and dotted detail, complete side border; palette remap. ",
+      "sha256": "d0d8aace2b38fa0fb8147fdffff313219b37ec5c5afced74448b6667f64b58a5"
+    },
+    "button_hover": {
+      "file": "game/assets/pixel/ui/button_hover.png",
+      "size": [
+        32,
+        22
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "button hover",
+      "margins": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "processing": "EMPTY alpha/chamfers and dotted detail, complete side border; palette remap. Selected outline from USING.",
+      "sha256": "4c2fe895dd86d978db8ea01fa1d7de026e82a666b90f805606789904972d5aa6"
+    },
+    "button_pressed": {
+      "file": "game/assets/pixel/ui/button_pressed.png",
+      "size": [
+        32,
+        22
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "button pressed",
+      "margins": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "processing": "EMPTY alpha/chamfers and dotted detail, complete side border; palette remap. Interior bevel inset 1 source pixel.",
+      "sha256": "787cdc04e03d6028a965b4cdac9393ab6e61e8d47ef48abc09f168ea2d9ebb3e"
+    },
+    "button_disabled": {
+      "file": "game/assets/pixel/ui/button_disabled.png",
+      "size": [
+        32,
+        22
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "button disabled",
+      "margins": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "processing": "EMPTY alpha/chamfers and dotted detail, complete side border; palette remap. ",
+      "sha256": "705e56f387d19e0d08d4b9d3305bb255c45fe881d80f1aa63cd66768419f00b5"
+    },
+    "button_toggle_on": {
+      "file": "game/assets/pixel/ui/button_toggle_on.png",
+      "size": [
+        32,
+        22
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "button toggle on",
+      "margins": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "processing": "EMPTY alpha/chamfers and dotted detail, complete side border; palette remap. Interior bevel inset 1 source pixel.",
+      "sha256": "0bd108b88a7de4d629abfb60283c99c419ca539cf60abd0d8e237bb741af0658"
+    },
+    "tooltip": {
+      "file": "game/assets/pixel/ui/tooltip.png",
+      "size": [
+        32,
+        22
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "tooltip",
+      "margins": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "processing": "EMPTY alpha/chamfers and dotted detail, complete side border; palette remap. ",
+      "sha256": "82da87fed297b7e5506dc7d2b88e9b01b5803f898377abd46489f2a0bee7f621"
+    },
+    "slider_track": {
+      "file": "game/assets/pixel/ui/slider_track.png",
+      "size": [
+        32,
+        6
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "slider track",
+      "margins": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "processing": "Cut/repeat EMPTY frame strips into 32x6 well.",
+      "sha256": "935f0b18f3136b3121e439b4accb512887fddf0cc809f397f4917fba01c142fb"
+    },
+    "bar_background": {
+      "file": "game/assets/pixel/ui/bar_background.png",
+      "size": [
+        32,
+        6
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "bar background",
+      "margins": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "processing": "Cut/repeat EMPTY frame strips into 32x6 well.",
+      "sha256": "935f0b18f3136b3121e439b4accb512887fddf0cc809f397f4917fba01c142fb"
+    },
+    "slider_fill": {
+      "file": "game/assets/pixel/ui/slider_fill.png",
+      "size": [
+        8,
+        4
+      ],
+      "sources": [
+        "UI Elements/Zombie-Tileset---_0514_Capa-517.png"
+      ],
+      "purpose": "slider fill",
+      "margins": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "processing": "Battery material colours extended to a flat pixel strip.",
+      "sha256": "6bc9e2d89acda4d4e082125db05d6ccf58367a1a59224d7fcad6075ea401b7f7"
+    },
+    "bar_fill": {
+      "file": "game/assets/pixel/ui/bar_fill.png",
+      "size": [
+        8,
+        4
+      ],
+      "sources": [
+        "UI Elements/Zombie-Tileset---_0514_Capa-517.png"
+      ],
+      "purpose": "bar fill",
+      "margins": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "processing": "Battery material colours extended to a flat pixel strip.",
+      "sha256": "cc4d76241faa9af1c38820c7886aa37ea43a682f4addd323c93bfe3d1d97e6e2"
+    },
+    "slider_grabber": {
+      "file": "game/assets/pixel/ui/slider_grabber.png",
+      "size": [
+        8,
+        12
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "slider grabber",
+      "margins": null,
+      "processing": "Fixed-size corner recombination; checkbox adds pixel check glyph.",
+      "sha256": "1aeacaf1db196c1b74e4c9d12de2fd5a36a00ce51200dda37dbfe1dd596cf2f1"
+    },
+    "slider_grabber_hover": {
+      "file": "game/assets/pixel/ui/slider_grabber_hover.png",
+      "size": [
+        8,
+        12
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "slider grabber hover",
+      "margins": null,
+      "processing": "Fixed-size corner recombination; checkbox adds pixel check glyph.",
+      "sha256": "fc3ca6c6b2e112dc014259e533ecae5bb424ddbcf1bcf4d5cf7ba30479265992"
+    },
+    "checkbox_off": {
+      "file": "game/assets/pixel/ui/checkbox_off.png",
+      "size": [
+        12,
+        12
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "checkbox off",
+      "margins": null,
+      "processing": "Fixed-size corner recombination; checkbox adds pixel check glyph.",
+      "sha256": "6d29b6e087d7aae220b89ac0fcd579362ec3fa3adbc92ef54287cd45c75e8db4"
+    },
+    "checkbox_on": {
+      "file": "game/assets/pixel/ui/checkbox_on.png",
+      "size": [
+        12,
+        12
+      ],
+      "sources": [
+        "Inventory interface/EMPTY_SLOT.png",
+        "Inventory interface/USING_SLOT.png"
+      ],
+      "purpose": "checkbox on",
+      "margins": null,
+      "processing": "Fixed-size corner recombination; checkbox adds pixel check glyph.",
+      "sha256": "a2995649f952fd21eaa2812e845f67f2fcf79e9ef689fa2cf0deff12f8f43c40"
+    },
+    "icon_food": {
+      "file": "game/assets/pixel/ui/icon_food.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [
+        "Pickable Items and Weapons/Zombie-Tileset---_0328_Capa-329.png"
+      ],
+      "purpose": "icon food",
+      "margins": null,
+      "processing": "Unchanged native sprite, centered on 16x16 transparent cell.",
+      "sha256": "87b63149adaafa12062cf35cfed77f2bab445e1d018962cc08a004603f976888"
+    },
+    "icon_wood": {
+      "file": "game/assets/pixel/ui/icon_wood.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [
+        "Trees/Zombie-Tileset---_0139_Capa-140.png"
+      ],
+      "purpose": "icon wood",
+      "margins": null,
+      "processing": "Unchanged native sprite, centered on 16x16 transparent cell.",
+      "sha256": "f832217fcbcb272ae6dcf591f02e87f6822be6f8e7eeae58de4ca1d6dd3a7d3a"
+    },
+    "icon_scrap": {
+      "file": "game/assets/pixel/ui/icon_scrap.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [
+        "Broken Cars and Tires/Zombie-Tileset---_0193_Capa-194.png"
+      ],
+      "purpose": "icon scrap",
+      "margins": null,
+      "processing": "Unchanged native sprite, centered on 16x16 transparent cell.",
+      "sha256": "9ac55d48bdbd71206aeb2b37a4cc0b2cd686be44df36cf591352671e5914b734"
+    },
+    "icon_survivors": {
+      "file": "game/assets/pixel/ui/icon_survivors.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [
+        "Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png"
+      ],
+      "purpose": "icon survivors",
+      "margins": null,
+      "processing": "Unchanged native sprite, centered on 16x16 transparent cell.",
+      "sha256": "e351909e25330a7ac10f55ffc70d5c272f49a1f37f4d5aa13c6b21af9d412300"
+    },
+    "icon_ammo": {
+      "file": "game/assets/pixel/ui/icon_ammo.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [
+        "Inventory interface/SINGLE_AMMO_SLOT.png",
+        "Inventory interface/EMPTY_SLOT.png"
+      ],
+      "purpose": "ammo cartridge",
+      "margins": null,
+      "processing": "Subtract EMPTY_SLOT to extract only cartridge pixels, no frame; centered at native size.",
+      "sha256": "78a572cb285b1f8632f23a275205bd7577a0192222a9dd8f060936720b860ebe"
+    },
+    "icon_day": {
+      "file": "game/assets/pixel/ui/icon_day.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [
+        "Original hand-placed glyph; UI Elements palette/outline reference"
+      ],
+      "purpose": "icon day",
+      "margins": null,
+      "processing": "Hand-placed binary mask and black one-pixel outline; pack cream fill.",
+      "sha256": "b143bb9a782ecd5391becf7ce4f7f06a7bfb3b3a330d40695f3ee822b88be2d5"
+    },
+    "icon_night": {
+      "file": "game/assets/pixel/ui/icon_night.png",
+      "size": [
+        16,
+        16
+      ],
+      "sources": [
+        "Original hand-placed glyph; UI Elements palette/outline reference"
+      ],
+      "purpose": "icon night",
+      "margins": null,
+      "processing": "Hand-placed binary mask and black one-pixel outline; pack cream fill.",
+      "sha256": "190f602977d8c31c05efffe67ff288c02fd1ed5ecde57cca6804572d16b54b22"
+    },
+    "icon_pause": {
+      "file": "game/assets/pixel/ui/icon_pause.png",
+      "size": [
+        8,
+        8
+      ],
+      "sources": [
+        "Original hand-placed glyph; UI Elements palette/outline reference"
+      ],
+      "purpose": "icon pause",
+      "margins": null,
+      "processing": "Hand-placed binary mask and black one-pixel outline; pack cream fill.",
+      "sha256": "7f4981b04543a6850034049bd7d41bd5f4adb21f1055ea2e70030a499c36a172"
+    },
+    "icon_play": {
+      "file": "game/assets/pixel/ui/icon_play.png",
+      "size": [
+        8,
+        8
+      ],
+      "sources": [
+        "Original hand-placed glyph; UI Elements palette/outline reference"
+      ],
+      "purpose": "icon play",
+      "margins": null,
+      "processing": "Hand-placed binary mask and black one-pixel outline; pack cream fill.",
+      "sha256": "d4e377b1a292deb2d86e5b3e8cce5f1a73e1f141b3e8c5e2326e0118fd3ebfad"
+    },
+    "icon_fast": {
+      "file": "game/assets/pixel/ui/icon_fast.png",
+      "size": [
+        8,
+        8
+      ],
+      "sources": [
+        "Original hand-placed glyph; UI Elements palette/outline reference"
+      ],
+      "purpose": "icon fast",
+      "margins": null,
+      "processing": "Hand-placed binary mask and black one-pixel outline; pack cream fill.",
+      "sha256": "b35dd1b576ef656756a2510642bde2f2b474468ab387572439ad6097e31d2b23"
+    },
+    "icon_faster": {
+      "file": "game/assets/pixel/ui/icon_faster.png",
+      "size": [
+        8,
+        8
+      ],
+      "sources": [
+        "Original hand-placed glyph; UI Elements palette/outline reference"
+      ],
+      "purpose": "icon faster",
+      "margins": null,
+      "processing": "Hand-placed binary mask and black one-pixel outline; pack cream fill.",
+      "sha256": "cf9307a1427a1b3d175f2da156a8d1b925ad49d4a299c3a1d3de9facb1c3facf"
+    }
+  },
+  "font": {
+    "file": "game/assets/pixel/ui/font/pixelify_sans.ttf",
+    "source": "https://github.com/google/fonts/tree/main/ofl/pixelifysans",
+    "license": "SIL OFL 1.1",
+    "sha256": "9ba86cd010a4de309d263ceff8e8044092c9db7efda869620cb9ff1c4389e8a5",
+    "required_glyphs": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789: , .'!?-\u2013()/%+\u00d7",
+    "missing_glyphs": []
+  }
+}

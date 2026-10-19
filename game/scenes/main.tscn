@@ -1,0 +1,59 @@
+[gd_scene load_steps=19 format=3]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
+[ext_resource type="PackedScene" path="res://scenes/world/world.tscn" id="2_world"]
+[ext_resource type="PackedScene" path="res://scenes/ui/hud.tscn" id="3_hud"]
+[ext_resource type="PackedScene" path="res://scenes/ui/build_bar.tscn" id="4_bb"]
+[ext_resource type="PackedScene" path="res://scenes/ui/info_panel.tscn" id="5_info"]
+[ext_resource type="PackedScene" path="res://scenes/ui/roster_panel.tscn" id="6_roster"]
+[ext_resource type="PackedScene" path="res://scenes/ui/game_over.tscn" id="7_over"]
+[ext_resource type="PackedScene" path="res://scenes/ui/victory.tscn" id="8_victory"]
+[ext_resource type="PackedScene" path="res://scenes/ui/main_menu.tscn" id="9_menu"]
+[ext_resource type="PackedScene" path="res://scenes/ui/dawn_report.tscn" id="10_dawn"]
+[ext_resource type="PackedScene" path="res://scenes/ui/pause_menu.tscn" id="11_pause"]
+[ext_resource type="Script" path="res://scripts/audio/audio_manager.gd" id="12_audio"]
+[ext_resource type="PackedScene" path="res://scenes/ui/hint_panel.tscn" id="13_hints"]
+
+[ext_resource type="PackedScene" path="res://scenes/ui/settings_screen.tscn" id="14_screen"]
+[ext_resource type="PackedScene" path="res://scenes/ui/how_to_play.tscn" id="15_screen"]
+[ext_resource type="PackedScene" path="res://scenes/ui/credits_screen.tscn" id="16_screen"]
+[ext_resource type="Script" path="res://scripts/ui/cc_alarm.gd" id="17_alarm"]
+
+[ext_resource type="PackedScene" path="res://scenes/ui/tech_tree.tscn" id="18_tech"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_main")
+
+[node name="World" parent="." instance=ExtResource("2_world")]
+
+[node name="HUD" parent="." instance=ExtResource("3_hud")]
+
+[node name="CCAlarm" type="CanvasLayer" parent="."]
+script = ExtResource("17_alarm")
+
+[node name="BuildBarLayer" parent="." instance=ExtResource("4_bb")]
+
+[node name="InfoPanel" parent="." instance=ExtResource("5_info")]
+
+[node name="RosterPanel" parent="." instance=ExtResource("6_roster")]
+
+[node name="GameOverScreen" parent="." instance=ExtResource("7_over")]
+
+[node name="VictoryScreen" parent="." instance=ExtResource("8_victory")]
+[node name="DawnReport" parent="." instance=ExtResource("10_dawn")]
+[node name="MainMenu" parent="." instance=ExtResource("9_menu")]
+
+[node name="Hints" parent="." instance=ExtResource("13_hints")]
+
+[node name="PauseMenu" parent="." instance=ExtResource("11_pause")]
+ 
+[node name="Audio" type="Node" parent="."]
+script = ExtResource("12_audio")
+
+[node name="SettingsScreen" parent="." instance=ExtResource("14_screen")]
+
+[node name="HowToPlay" parent="." instance=ExtResource("15_screen")]
+
+[node name="CreditsScreen" parent="." instance=ExtResource("16_screen")]
+
+[node name="TechTreeScreen" parent="." instance=ExtResource("18_tech")]

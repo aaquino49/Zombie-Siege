@@ -1,0 +1,22 @@
+{
+  "walkers_base": 4,
+  "walkers_per_night": 3,
+  "runners_mult": 2,
+  "runners_offset": 3,
+  "brutes_mult": 1,
+  "brutes_offset": 10,
+  "sides_by_night": {
+    "1": 1,
+    "4": 2,
+    "10": 3,
+    "12": 4
+  },
+  "spawn_window_fraction": 0.35,
+  "final_night": 20,
+  "final_multiplier": 3,
+  "final_sides": 4,
+  "spitters_mult": 1,
+  "spitters_offset": 5,
+  "spitters_div": 3,
+  "endless_wave_mult": 1.0
+}

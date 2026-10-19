@@ -1,0 +1,119 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/credits_screen.gd" id="1_script"]
+
+[node name="CreditsScreen" type="CanvasLayer"]
+process_mode = 3
+layer = 35
+visible = false
+script = ExtResource("1_script")
+
+[node name="Dim" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+color = Color(0, 0, 0, 0.55)
+
+[node name="Center" type="CenterContainer" parent="Dim"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Panel" type="PanelContainer" parent="Dim/Center"]
+custom_minimum_size = Vector2(960, 0)
+layout_mode = 2
+
+[node name="Margin" type="MarginContainer" parent="Dim/Center/Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 28
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 28
+
+[node name="Content" type="VBoxContainer" parent="Dim/Center/Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Title" type="Label" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+text = "CREDITS"
+horizontal_alignment = 1
+
+
+[node name="Scroll" type="ScrollContainer" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 420)
+horizontal_scroll_mode = 0
+
+[node name="Sections" type="VBoxContainer" parent="Dim/Center/Panel/Margin/Content/Scroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[node name="ArtHeading" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "ART"
+
+[node name="Art" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "Ittai Manero - Zombie Apocalypse Tileset (itch.io).\nFree for commercial use; raw pack is not redistributed.\nPixel sprites and UI adapted by Codex.\nKenney (Kenney Vleugels) - original art, icons and UI: CC0.\nOriginal title composition and earlier asset adaptations: Codex."
+
+[node name="AudioHeading" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "AUDIO - CC0 / PUBLIC DOMAIN"
+
+[node name="Audio" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "Kenney - Impact Sounds and Interface Sounds.\nkurt - Gunshots. EmoPreben - Zombie Moans 01.\nKilua Boy - Sunset Walk (day music).\nSkyleTheFrench - Dark Place (night music).\nCodex - original synthesized cues and arrangements."
+
+[node name="FontsHeading" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "FONTS - SIL OPEN FONT LICENSE 1.1"
+
+[node name="Fonts" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "Pixelify Sans - Copyright 2021, The Pixelify Sans Project Authors.\nSiege Pixel Regular - modified Pixelify Sans numerals by Codex.\nCopyright notices and complete OFL ship with the fonts."
+
+[node name="EngineHeading" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "ENGINE"
+
+[node name="Engine" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "Godot Engine 4.7.2 - MIT License.\nFull sources, asset credits and processing details: CREDITS.md."
+
+[node name="Team" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "Made by an AI team: Claude, Gemini, ChatGPT"
+
+[node name="Buttons" type="VBoxContainer" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+
+[node name="Back" type="Button" parent="Dim/Center/Panel/Margin/Content/Buttons"]
+layout_mode = 2
+text = "Back"

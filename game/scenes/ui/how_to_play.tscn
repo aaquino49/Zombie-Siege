@@ -1,0 +1,119 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/how_to_play.gd" id="1_script"]
+
+[node name="HowToPlay" type="CanvasLayer"]
+process_mode = 3
+layer = 35
+visible = false
+script = ExtResource("1_script")
+
+[node name="Dim" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+color = Color(0, 0, 0, 0.55)
+
+[node name="Center" type="CenterContainer" parent="Dim"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="Panel" type="PanelContainer" parent="Dim/Center"]
+custom_minimum_size = Vector2(960, 0)
+layout_mode = 2
+
+[node name="Margin" type="MarginContainer" parent="Dim/Center/Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 28
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 28
+
+[node name="Content" type="VBoxContainer" parent="Dim/Center/Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Title" type="Label" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+text = "HOW TO PLAY"
+horizontal_alignment = 1
+
+
+[node name="Scroll" type="ScrollContainer" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 420)
+horizontal_scroll_mode = 0
+
+[node name="Sections" type="VBoxContainer" parent="Dim/Center/Panel/Margin/Content/Scroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[node name="GoalHeading" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "YOUR GOAL"
+
+[node name="Goal" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = ""
+
+[node name="ControlsHeading" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "CONTROLS"
+
+[node name="Controls" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "Camera: WASD / arrows or screen edge; mouse wheel to zoom.\nTime: Space pauses; 1 / 2 / 3 change speed.\nBuild: B opens the menu; F1–F9 picks a building.\nLeft-click places; right-click / Esc cancels. Shift+click repeats; drag to place a line of walls.\nSelect: click a survivor or building for jobs, HP and workers.\nRoster: R opens survivor jobs. Esc opens the pause menu."
+
+[node name="TipsHeading" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "SURVIVAL TIPS"
+
+[node name="Tips" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "Build farms before night 3 and assign farmers.\nEnclose your colony with walls and leave a gate for workers.\nMake ammo at the Workshop before your starting supply runs out.\nPut guards in watchtowers for protection and extra range.\nProvide shelter beds for everyone at night.\nSpitters (from night 8) stop out of reach and spit acid at turrets and watchtowers: keep guards and turrets covering each other.\nSend a survivor scavenging in the morning for extra supplies; they return at nightfall, but it is risky.\nSave wood and scrap for the Radio Tower as day 8 approaches.\nReload day in the pause menu restores your last dawn autosave.\nAfter rescue, choose Keep fighting to defend your colony in endless mode."
+
+[node name="MoraleHeading" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = "MORALE"
+
+[node name="Morale" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = ""
+
+[node name="Research" type="Label" parent="Dim/Center/Panel/Margin/Content/Scroll/Sections"]
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 2
+text = ""
+
+[node name="Buttons" type="VBoxContainer" parent="Dim/Center/Panel/Margin/Content"]
+layout_mode = 2
+
+[node name="Back" type="Button" parent="Dim/Center/Panel/Margin/Content/Buttons"]
+layout_mode = 2
+text = "Back"

@@ -1,0 +1,29 @@
+{
+  "wall_wood": [
+    "tile_349.png",
+    "tile_472.png",
+    "tile_479.png"
+  ],
+  "gate": [
+    "tile_349.png",
+    "tile_456.png",
+    "tile_472.png",
+    "tile_479.png",
+    "tile_520.png"
+  ],
+  "wall_reinforced": [
+    "tile_349.png",
+    "tile_360.png",
+    "tile_456.png",
+    "tile_472.png",
+    "tile_479.png",
+    "tile_520.png"
+  ],
+  "shelter": [
+    "tile_349.png",
+    "tile_456.png",
+    "tile_472.png",
+    "tile_479.png",
+    "tile_504.png"
+  ]
+}

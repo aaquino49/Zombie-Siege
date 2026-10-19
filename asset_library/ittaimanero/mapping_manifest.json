@@ -1,0 +1,3293 @@
+[
+  {
+    "entity": "grass_1",
+    "old": [
+      "tiles/grass_1.png"
+    ],
+    "ids": [
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Opaque brown/olive pack ground; retain pack palette, no invented green tint.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "grass_2",
+    "old": [
+      "tiles/grass_2.png"
+    ],
+    "ids": [
+      79
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Opaque brown/olive pack ground; retain pack palette, no invented green tint.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0078_Capa-79.png"
+    ]
+  },
+  {
+    "entity": "grass_3",
+    "old": [
+      "tiles/grass_3.png"
+    ],
+    "ids": [
+      80
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Opaque brown/olive pack ground; retain pack palette, no invented green tint.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0079_Capa-80.png"
+    ]
+  },
+  {
+    "entity": "grass extra variant",
+    "old": [],
+    "ids": [
+      81
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Optional fourth base variant.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0080_Capa-81.png"
+    ]
+  },
+  {
+    "entity": "flower decals",
+    "old": [],
+    "ids": [
+      118,
+      218
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Full grass-with-flowers tiles; use intact tiles, or mask flowers only.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Grass with Flowers/Zombie-Tileset---_0117_Capa-118.png",
+      "asset_library/ittaimanero/sprites/Grass with Flowers/Zombie-Tileset---_0217_Capa-218.png"
+    ]
+  },
+  {
+    "entity": "tuft decals",
+    "old": [],
+    "ids": [
+      80,
+      81
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Extract black blade clusters, preserving coordinates; optional overlay.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0079_Capa-80.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0080_Capa-81.png"
+    ]
+  },
+  {
+    "entity": "dirt",
+    "old": [
+      "tiles/dirt.png"
+    ],
+    "ids": [
+      66,
+      68,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derive opaque fill from path sand colour; keep 78 speckles only for dirt_2. Clearing uses same dirt material.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "dirt",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0065_Capa-66.png",
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "dirt_2",
+    "old": [
+      "tiles/dirt_2.png"
+    ],
+    "ids": [
+      66,
+      68,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derive opaque fill from path sand colour; keep 78 speckles only for dirt_2. Clearing uses same dirt material.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "dirt",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0065_Capa-66.png",
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "clearing",
+    "old": [
+      "tiles/dirt.png"
+    ],
+    "ids": [
+      66,
+      68,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derive opaque fill from path sand colour; keep 78 speckles only for dirt_2. Clearing uses same dirt material.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "dirt",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0065_Capa-66.png",
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path_center",
+    "old": [
+      "tiles/path/path_center.png"
+    ],
+    "ids": [
+      66,
+      68,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derived material boundary, not direct substitution: expand sand mask to connected edges; see path recipe. No sprite rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "path_center",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0065_Capa-66.png",
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path_edge_n",
+    "old": [
+      "tiles/path/path_edge_n.png"
+    ],
+    "ids": [
+      68,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derived material boundary, not direct substitution: expand sand mask to connected edges; see path recipe. No sprite rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "path_edge_n",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path_edge_e",
+    "old": [
+      "tiles/path/path_edge_e.png"
+    ],
+    "ids": [
+      69,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derived material boundary, not direct substitution: expand sand mask to connected edges; see path recipe. No sprite rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "path_edge_e",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0068_Capa-69.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path_edge_s",
+    "old": [
+      "tiles/path/path_edge_s.png"
+    ],
+    "ids": [
+      68,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derived material boundary, not direct substitution: expand sand mask to connected edges; see path recipe. No sprite rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "path_edge_s",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path_edge_w",
+    "old": [
+      "tiles/path/path_edge_w.png"
+    ],
+    "ids": [
+      69,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derived material boundary, not direct substitution: expand sand mask to connected edges; see path recipe. No sprite rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "path_edge_w",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0068_Capa-69.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path_outer_ne",
+    "old": [
+      "tiles/path/path_outer_ne.png"
+    ],
+    "ids": [
+      72,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derived material boundary, not direct substitution: expand sand mask to connected edges; see path recipe. No sprite rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "path_outer_ne",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0071_Capa-72.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path_outer_nw",
+    "old": [
+      "tiles/path/path_outer_nw.png"
+    ],
+    "ids": [
+      75,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derived material boundary, not direct substitution: expand sand mask to connected edges; see path recipe. No sprite rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "path_outer_nw",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0074_Capa-75.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path_outer_se",
+    "old": [
+      "tiles/path/path_outer_se.png"
+    ],
+    "ids": [
+      71,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derived material boundary, not direct substitution: expand sand mask to connected edges; see path recipe. No sprite rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "path_outer_se",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0070_Capa-71.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path_outer_sw",
+    "old": [
+      "tiles/path/path_outer_sw.png"
+    ],
+    "ids": [
+      74,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derived material boundary, not direct substitution: expand sand mask to connected edges; see path recipe. No sprite rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "path_outer_sw",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0073_Capa-74.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path_inner_ne",
+    "old": [
+      "tiles/path/path_inner_ne.png"
+    ],
+    "ids": [
+      72,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derived material boundary, not direct substitution: expand sand mask to connected edges; see path recipe. No sprite rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "path_inner_ne",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0071_Capa-72.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path_inner_nw",
+    "old": [
+      "tiles/path/path_inner_nw.png"
+    ],
+    "ids": [
+      75,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derived material boundary, not direct substitution: expand sand mask to connected edges; see path recipe. No sprite rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "path_inner_nw",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0074_Capa-75.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path_inner_se",
+    "old": [
+      "tiles/path/path_inner_se.png"
+    ],
+    "ids": [
+      71,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derived material boundary, not direct substitution: expand sand mask to connected edges; see path recipe. No sprite rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "path_inner_se",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0070_Capa-71.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path_inner_sw",
+    "old": [
+      "tiles/path/path_inner_sw.png"
+    ],
+    "ids": [
+      74,
+      78
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Derived material boundary, not direct substitution: expand sand mask to connected edges; see path recipe. No sprite rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "path_inner_sw",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0073_Capa-74.png",
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png"
+    ]
+  },
+  {
+    "entity": "path topology straight_ew",
+    "old": [],
+    "ids": [
+      68
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Native narrow-track option; end is cut from straight plus round 66 cap. Existing renderer uses boundary tiles above.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png"
+    ]
+  },
+  {
+    "entity": "path topology straight_ns",
+    "old": [],
+    "ids": [
+      69
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Native narrow-track option; end is cut from straight plus round 66 cap. Existing renderer uses boundary tiles above.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0068_Capa-69.png"
+    ]
+  },
+  {
+    "entity": "path topology corner_sw",
+    "old": [],
+    "ids": [
+      72
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Native narrow-track option; end is cut from straight plus round 66 cap. Existing renderer uses boundary tiles above.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0071_Capa-72.png"
+    ]
+  },
+  {
+    "entity": "path topology corner_se",
+    "old": [],
+    "ids": [
+      75
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Native narrow-track option; end is cut from straight plus round 66 cap. Existing renderer uses boundary tiles above.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0074_Capa-75.png"
+    ]
+  },
+  {
+    "entity": "path topology corner_nw",
+    "old": [],
+    "ids": [
+      71
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Native narrow-track option; end is cut from straight plus round 66 cap. Existing renderer uses boundary tiles above.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0070_Capa-71.png"
+    ]
+  },
+  {
+    "entity": "path topology corner_ne",
+    "old": [],
+    "ids": [
+      74
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Native narrow-track option; end is cut from straight plus round 66 cap. Existing renderer uses boundary tiles above.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0073_Capa-74.png"
+    ]
+  },
+  {
+    "entity": "path topology end",
+    "old": [],
+    "ids": [
+      66,
+      68,
+      69
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Native narrow-track option; end is cut from straight plus round 66 cap. Existing renderer uses boundary tiles above.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0065_Capa-66.png",
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0067_Capa-68.png",
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0068_Capa-69.png"
+    ]
+  },
+  {
+    "entity": "path topology junction_nes",
+    "old": [],
+    "ids": [
+      76
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Native narrow-track option; end is cut from straight plus round 66 cap. Existing renderer uses boundary tiles above.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0075_Capa-76.png"
+    ]
+  },
+  {
+    "entity": "path topology junction_esw",
+    "old": [],
+    "ids": [
+      73
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Native narrow-track option; end is cut from straight plus round 66 cap. Existing renderer uses boundary tiles above.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0072_Capa-73.png"
+    ]
+  },
+  {
+    "entity": "path topology junction_nsw",
+    "old": [],
+    "ids": [
+      70
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Native narrow-track option; end is cut from straight plus round 66 cap. Existing renderer uses boundary tiles above.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0069_Capa-70.png"
+    ]
+  },
+  {
+    "entity": "path topology junction_new",
+    "old": [],
+    "ids": [
+      77
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Native narrow-track option; end is cut from straight plus round 66 cap. Existing renderer uses boundary tiles above.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0076_Capa-77.png"
+    ]
+  },
+  {
+    "entity": "path topology cross",
+    "old": [],
+    "ids": [
+      67
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Native narrow-track option; end is cut from straight plus round 66 cap. Existing renderer uses boundary tiles above.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Terrain Path/Zombie-Tileset---_0066_Capa-67.png"
+    ]
+  },
+  {
+    "entity": "asphalt road straight",
+    "old": [],
+    "ids": [
+      30,
+      35,
+      40,
+      45,
+      46,
+      47
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Optional decorative asphalt atlas. Ends/junctions recombine edge/marking pieces over 54; not used by current dirt roads.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0029_Capa-30.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0034_Capa-35.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0039_Capa-40.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0044_Capa-45.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0045_Capa-46.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0046_Capa-47.png"
+    ]
+  },
+  {
+    "entity": "asphalt road corner",
+    "old": [],
+    "ids": [
+      31,
+      32,
+      33,
+      34
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Optional decorative asphalt atlas. Ends/junctions recombine edge/marking pieces over 54; not used by current dirt roads.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0030_Capa-31.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0031_Capa-32.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0032_Capa-33.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0033_Capa-34.png"
+    ]
+  },
+  {
+    "entity": "asphalt road end",
+    "old": [],
+    "ids": [
+      41,
+      42,
+      43,
+      44,
+      54
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Optional decorative asphalt atlas. Ends/junctions recombine edge/marking pieces over 54; not used by current dirt roads.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0040_Capa-41.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0041_Capa-42.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0042_Capa-43.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0043_Capa-44.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0053_Capa-54.png"
+    ]
+  },
+  {
+    "entity": "asphalt road junction",
+    "old": [],
+    "ids": [
+      48,
+      49,
+      50,
+      51,
+      52
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Optional decorative asphalt atlas. Ends/junctions recombine edge/marking pieces over 54; not used by current dirt roads.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0047_Capa-48.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0048_Capa-49.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0049_Capa-50.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0050_Capa-51.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0051_Capa-52.png"
+    ]
+  },
+  {
+    "entity": "tree_1",
+    "old": [
+      "props/tree_1.png"
+    ],
+    "ids": [
+      135,
+      138
+    ],
+    "cell": [
+      16,
+      32
+    ],
+    "notes": "Stack crown at (0,0), trunk at (0,16); 1x1 collision footprint, bottom-centre anchor.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "tree",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Trees/Zombie-Tileset---_0134_Capa-135.png",
+      "asset_library/ittaimanero/sprites/Trees/Zombie-Tileset---_0137_Capa-138.png"
+    ]
+  },
+  {
+    "entity": "tree_2",
+    "old": [
+      "props/tree_2.png"
+    ],
+    "ids": [
+      137,
+      138
+    ],
+    "cell": [
+      16,
+      32
+    ],
+    "notes": "Stack crown at (0,0), trunk at (0,16); 1x1 collision footprint, bottom-centre anchor.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "tree",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Trees/Zombie-Tileset---_0136_Capa-137.png",
+      "asset_library/ittaimanero/sprites/Trees/Zombie-Tileset---_0137_Capa-138.png"
+    ]
+  },
+  {
+    "entity": "rock_1",
+    "old": [
+      "props/rock_1.png"
+    ],
+    "ids": [
+      290,
+      65
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "No rock category or readable boulder in pack. Hand-edit debris 290 into grey angular stone using existing grey/brown palette.",
+    "gap": true,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Spawning Item Box Animation Frames + Broken Box Pieces/Zombie-Tileset---_0289_Capa-290.png",
+      "asset_library/ittaimanero/sprites/Terrain wall/Zombie-Tileset---_0064_Capa-65.png"
+    ]
+  },
+  {
+    "entity": "rock_2",
+    "old": [
+      "props/rock_2.png"
+    ],
+    "ids": [
+      290,
+      65
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "No rock category or readable boulder in pack. Hand-edit debris 290 into grey angular stone using existing grey/brown palette.",
+    "gap": true,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Spawning Item Box Animation Frames + Broken Box Pieces/Zombie-Tileset---_0289_Capa-290.png",
+      "asset_library/ittaimanero/sprites/Terrain wall/Zombie-Tileset---_0064_Capa-65.png"
+    ]
+  },
+  {
+    "entity": "scrap_1",
+    "old": [
+      "props/scrap_1.png"
+    ],
+    "ids": [
+      289,
+      290,
+      193
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Item box plus broken debris/tire; 1x1 salvage pile.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Spawning Item Box Animation Frames + Broken Box Pieces/Zombie-Tileset---_0288_Capa-289.png",
+      "asset_library/ittaimanero/sprites/Spawning Item Box Animation Frames + Broken Box Pieces/Zombie-Tileset---_0289_Capa-290.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0192_Capa-193.png"
+    ]
+  },
+  {
+    "entity": "scrap_2",
+    "old": [
+      "props/scrap_2.png"
+    ],
+    "ids": [
+      192,
+      193,
+      194
+    ],
+    "cell": [
+      32,
+      16
+    ],
+    "notes": "Wreck debris (27x11) and tires, centred over 1x1 footprint; overhang does not block adjacent cells.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0191_Capa-192.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0192_Capa-193.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0193_Capa-194.png"
+    ]
+  },
+  {
+    "entity": "scrap_3",
+    "old": [
+      "props/scrap_3.png"
+    ],
+    "ids": [
+      193,
+      194,
+      290
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Tire/debris cluster; 1x1 salvage pile.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0192_Capa-193.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0193_Capa-194.png",
+      "asset_library/ittaimanero/sprites/Spawning Item Box Animation Frames + Broken Box Pieces/Zombie-Tileset---_0289_Capa-290.png"
+    ]
+  },
+  {
+    "entity": "command_center",
+    "old": [
+      "buildings/command_center.png"
+    ],
+    "ids": [
+      1,
+      25,
+      2,
+      26,
+      3,
+      27,
+      5,
+      15
+    ],
+    "cell": [
+      32,
+      48
+    ],
+    "notes": "2x2 footprint; rows: roof caps [1,25] y0, roof [2,26] y7, eaves/front [3,27] y23, base/door [5,15] y39.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "cc",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0000_Capa-1.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0024_Capa-25.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0001_Capa-2.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0025_Capa-26.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0002_Capa-3.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0026_Capa-27.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0004_Capa-5.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0014_Capa-15.png"
+    ]
+  },
+  {
+    "entity": "wooden_wall",
+    "old": [
+      "buildings/wall_wood.png"
+    ],
+    "ids": [
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "1x1 footprint; horizontal 208/214, vertical 210/211; terminal posts 207/209/213/215, centre-post 212. Composite corners/T/cross; see fence recipe.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0206_Capa-207.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0207_Capa-208.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0208_Capa-209.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0209_Capa-210.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0210_Capa-211.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0211_Capa-212.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0212_Capa-213.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0213_Capa-214.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0214_Capa-215.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0215_Capa-216.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0216_Capa-217.png"
+    ]
+  },
+  {
+    "entity": "gate",
+    "old": [
+      "buildings/gate.png"
+    ],
+    "ids": [
+      208,
+      210,
+      211,
+      212,
+      214
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "1x1; closed gate = cropped rails 208 between vertical posts 210/211; open = posts only. NS uses vertical rails edited from same pixels.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0207_Capa-208.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0209_Capa-210.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0210_Capa-211.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0211_Capa-212.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0213_Capa-214.png"
+    ]
+  },
+  {
+    "entity": "reinforced_wall",
+    "old": [
+      "buildings/wall_reinforced.png"
+    ],
+    "ids": [
+      65
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "1x1; Terrain wall is a raised earth face, not metal. Tile face EW; NS/corners/T use cuts of top rim and face; preserve 3/4 top rim.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Terrain wall/Zombie-Tileset---_0064_Capa-65.png"
+    ]
+  },
+  {
+    "entity": "shelter",
+    "old": [
+      "buildings/shelter.png"
+    ],
+    "ids": [
+      94,
+      104,
+      93,
+      105,
+      92,
+      98
+    ],
+    "cell": [
+      32,
+      32
+    ],
+    "notes": "2x2; cap [94,104] y0, walls [93,105] y7, base/door [92,98] y23.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "shelter",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0093_Capa-94.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0103_Capa-104.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0092_Capa-93.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0104_Capa-105.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0091_Capa-92.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0097_Capa-98.png"
+    ]
+  },
+  {
+    "entity": "farm",
+    "old": [
+      "buildings/farm.png"
+    ],
+    "ids": [
+      270,
+      268,
+      110,
+      111
+    ],
+    "cell": [
+      32,
+      32
+    ],
+    "notes": "2x2; one-column barn roof 270 (0,0), shutter wall 268 (0,16); crops 110 (16,0),111 (16,16).",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "farm",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Barns/Zombie-Tileset---_0269_Capa-270.png",
+      "asset_library/ittaimanero/sprites/Modular Barns/Zombie-Tileset---_0267_Capa-268.png",
+      "asset_library/ittaimanero/sprites/Different Crops Lengths/Zombie-Tileset---_0109_Capa-110.png",
+      "asset_library/ittaimanero/sprites/Different Crops Lengths/Zombie-Tileset---_0110_Capa-111.png"
+    ]
+  },
+  {
+    "entity": "storage",
+    "old": [
+      "buildings/storage.png"
+    ],
+    "ids": [
+      1,
+      25,
+      2,
+      26,
+      3,
+      27,
+      5,
+      24,
+      119
+    ],
+    "cell": [
+      32,
+      48
+    ],
+    "notes": "2x2; CC shell, replace front-right base with 24 shutter; straw stack 119 in front-left as supplies.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "storage",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0000_Capa-1.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0024_Capa-25.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0001_Capa-2.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0025_Capa-26.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0002_Capa-3.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0026_Capa-27.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0004_Capa-5.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0023_Capa-24.png",
+      "asset_library/ittaimanero/sprites/Modular Stacked Straw/Zombie-Tileset---_0118_Capa-119.png"
+    ]
+  },
+  {
+    "entity": "watchtower",
+    "old": [
+      "buildings/watchtower.png"
+    ],
+    "ids": [
+      207,
+      209,
+      210,
+      211,
+      214
+    ],
+    "cell": [
+      16,
+      32
+    ],
+    "notes": "1x1; no elevated guard platform. Edit fence posts into four legs, add raised deck/rail; protect guard silhouette.",
+    "gap": true,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0206_Capa-207.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0208_Capa-209.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0209_Capa-210.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0210_Capa-211.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0213_Capa-214.png"
+    ]
+  },
+  {
+    "entity": "workshop",
+    "old": [
+      "buildings/workshop.png"
+    ],
+    "ids": [
+      1,
+      25,
+      2,
+      26,
+      19,
+      27,
+      5,
+      15,
+      193
+    ],
+    "cell": [
+      32,
+      48
+    ],
+    "notes": "2x2; CC shell with grille 19 replacing front-left 3 and tire 193 beside doorway.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "workshop",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0000_Capa-1.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0024_Capa-25.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0001_Capa-2.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0025_Capa-26.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0018_Capa-19.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0026_Capa-27.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0004_Capa-5.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0014_Capa-15.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0192_Capa-193.png"
+    ]
+  },
+  {
+    "entity": "lumber_yard",
+    "old": [
+      "buildings/lumber_yard.png"
+    ],
+    "ids": [
+      94,
+      104,
+      93,
+      105,
+      92,
+      103,
+      140,
+      141
+    ],
+    "cell": [
+      32,
+      32
+    ],
+    "notes": "2x2; small shelter shell with shutter 103; stack cut log 140 and dark log 141 in front. Logs, not straw, identify wood.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "lumber",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0093_Capa-94.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0103_Capa-104.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0092_Capa-93.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0104_Capa-105.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0091_Capa-92.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0102_Capa-103.png",
+      "asset_library/ittaimanero/sprites/Trees/Zombie-Tileset---_0139_Capa-140.png",
+      "asset_library/ittaimanero/sprites/Trees/Zombie-Tileset---_0140_Capa-141.png"
+    ]
+  },
+  {
+    "entity": "turret",
+    "old": [
+      "buildings/turret_base.png",
+      "buildings/turret_barrel.png"
+    ],
+    "ids": [
+      335,
+      332,
+      55,
+      193
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "1x1; Turret Zombie is a monster, not a gun emplacement. Edit pistol/shotgun hardware onto round base 55; draw four barrel facings, never rotate body.",
+    "gap": true,
+    "animation": "1 x 4 aimed facings",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0334_Capa-335.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0331_Capa-332.png",
+      "asset_library/ittaimanero/sprites/Modular Road/Zombie-Tileset---_0054_Capa-55.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0192_Capa-193.png"
+    ]
+  },
+  {
+    "entity": "radio_tower",
+    "old": [
+      "buildings/radio_tower.png"
+    ],
+    "ids": [
+      356,
+      210,
+      211,
+      94,
+      104
+    ],
+    "cell": [
+      32,
+      48
+    ],
+    "notes": "2x2; portable radio is not tower. Recombine shelter base + posts as lattice, hand-edit mast and antenna above; 32x48 anchored to footprint.",
+    "gap": true,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0355_Capa-356.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0209_Capa-210.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0210_Capa-211.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0093_Capa-94.png",
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0103_Capa-104.png"
+    ]
+  },
+  {
+    "entity": "guard_post",
+    "old": [],
+    "ids": [
+      207,
+      209,
+      208,
+      193
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Not a buildings.json type and has no current sprite; guards use logical positions. Future marker needs low barricade/cover, edit fence and tire.",
+    "gap": true,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0206_Capa-207.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0208_Capa-209.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0207_Capa-208.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0192_Capa-193.png"
+    ]
+  },
+  {
+    "entity": "construction_1x1",
+    "old": [
+      "buildings/construction_1x1.png"
+    ],
+    "ids": [
+      207,
+      209,
+      210,
+      211,
+      214,
+      290
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Scaffold alternative composed from fence posts/rails plus debris, below final roof; current renderer instead tints final texture. Reuse per-building footprint, no dedicated pack construction frame.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "scaffold",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0206_Capa-207.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0208_Capa-209.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0209_Capa-210.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0210_Capa-211.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0213_Capa-214.png",
+      "asset_library/ittaimanero/sprites/Spawning Item Box Animation Frames + Broken Box Pieces/Zombie-Tileset---_0289_Capa-290.png"
+    ]
+  },
+  {
+    "entity": "construction_2x2",
+    "old": [
+      "buildings/construction_2x2.png"
+    ],
+    "ids": [
+      207,
+      209,
+      210,
+      211,
+      214,
+      290
+    ],
+    "cell": [
+      32,
+      32
+    ],
+    "notes": "Scaffold alternative composed from fence posts/rails plus debris, below final roof; current renderer instead tints final texture. Reuse per-building footprint, no dedicated pack construction frame.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "scaffold",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0206_Capa-207.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0208_Capa-209.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0209_Capa-210.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0210_Capa-211.png",
+      "asset_library/ittaimanero/sprites/Modular Fences/Zombie-Tileset---_0213_Capa-214.png",
+      "asset_library/ittaimanero/sprites/Spawning Item Box Animation Frames + Broken Box Pieces/Zombie-Tileset---_0289_Capa-290.png"
+    ]
+  },
+  {
+    "entity": "blueprint / placement ghost",
+    "old": [
+      "buildings/command_center.png"
+    ],
+    "ids": [
+      1,
+      25,
+      2,
+      26,
+      3,
+      27,
+      5,
+      15
+    ],
+    "cell": [
+      32,
+      48
+    ],
+    "notes": "Reuse every building's mapped image. Palette-blue outline / valid-invalid footprint outline; runtime transparency only, no antialiased asset.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "cc",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0000_Capa-1.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0024_Capa-25.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0001_Capa-2.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0025_Capa-26.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0002_Capa-3.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0026_Capa-27.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0004_Capa-5.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0014_Capa-15.png"
+    ]
+  },
+  {
+    "entity": "damaged building look",
+    "old": [
+      "buildings/command_center.png"
+    ],
+    "ids": [
+      103,
+      24,
+      290,
+      385
+    ],
+    "cell": [
+      32,
+      48
+    ],
+    "notes": "No damage-state building set; 103/24 are shutters, not destroyed walls. Keep normal art plus HP bar; optional broken debris/blood overlay, no mandatory new damaged sprite.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Small Building/Zombie-Tileset---_0102_Capa-103.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0023_Capa-24.png",
+      "asset_library/ittaimanero/sprites/Spawning Item Box Animation Frames + Broken Box Pieces/Zombie-Tileset---_0289_Capa-290.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0384_Capa-385.png"
+    ]
+  },
+  {
+    "entity": "survivor_blue",
+    "old": [
+      "characters/survivor_blue_stand.png",
+      "characters/survivor_blue_gun.png"
+    ],
+    "ids": [
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      335,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Single player base only. Recolour masked shirt/hair/skin using pack palette; all seven data variants preserved. Walk/hurt directional ranges in animation table. Gun + knife are overlays, no extra poses.",
+    "gap": true,
+    "animation": "walk 3 x 3 native / 4 mirrored; hurt 3 x 3 / 4; idle/attack 1 x 4 derived; death 1+5 x 1",
+    "preview": "survivor_blue",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0334_Capa-335.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0370_Capa-371.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0371_Capa-372.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0372_Capa-373.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0373_Capa-374.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0374_Capa-375.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0375_Capa-376.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0376_Capa-377.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0377_Capa-378.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0378_Capa-379.png"
+    ]
+  },
+  {
+    "entity": "survivor_brown",
+    "old": [
+      "characters/survivor_brown_stand.png",
+      "characters/survivor_brown_gun.png"
+    ],
+    "ids": [
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      335,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Single player base only. Recolour masked shirt/hair/skin using pack palette; all seven data variants preserved. Walk/hurt directional ranges in animation table. Gun + knife are overlays, no extra poses.",
+    "gap": true,
+    "animation": "walk 3 x 3 native / 4 mirrored; hurt 3 x 3 / 4; idle/attack 1 x 4 derived; death 1+5 x 1",
+    "preview": "survivor_brown",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0334_Capa-335.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0370_Capa-371.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0371_Capa-372.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0372_Capa-373.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0373_Capa-374.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0374_Capa-375.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0375_Capa-376.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0376_Capa-377.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0377_Capa-378.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0378_Capa-379.png"
+    ]
+  },
+  {
+    "entity": "survivor_green",
+    "old": [
+      "characters/survivor_green_stand.png",
+      "characters/survivor_green_gun.png"
+    ],
+    "ids": [
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      335,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Single player base only. Recolour masked shirt/hair/skin using pack palette; all seven data variants preserved. Walk/hurt directional ranges in animation table. Gun + knife are overlays, no extra poses.",
+    "gap": true,
+    "animation": "walk 3 x 3 native / 4 mirrored; hurt 3 x 3 / 4; idle/attack 1 x 4 derived; death 1+5 x 1",
+    "preview": "survivor_green",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0334_Capa-335.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0370_Capa-371.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0371_Capa-372.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0372_Capa-373.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0373_Capa-374.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0374_Capa-375.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0375_Capa-376.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0376_Capa-377.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0377_Capa-378.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0378_Capa-379.png"
+    ]
+  },
+  {
+    "entity": "survivor_old",
+    "old": [
+      "characters/survivor_old_stand.png",
+      "characters/survivor_old_gun.png"
+    ],
+    "ids": [
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      335,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Single player base only. Recolour masked shirt/hair/skin using pack palette; all seven data variants preserved. Walk/hurt directional ranges in animation table. Gun + knife are overlays, no extra poses.",
+    "gap": true,
+    "animation": "walk 3 x 3 native / 4 mirrored; hurt 3 x 3 / 4; idle/attack 1 x 4 derived; death 1+5 x 1",
+    "preview": "survivor_old",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0334_Capa-335.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0370_Capa-371.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0371_Capa-372.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0372_Capa-373.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0373_Capa-374.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0374_Capa-375.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0375_Capa-376.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0376_Capa-377.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0377_Capa-378.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0378_Capa-379.png"
+    ]
+  },
+  {
+    "entity": "survivor_survivor",
+    "old": [
+      "characters/survivor_survivor_stand.png",
+      "characters/survivor_survivor_gun.png"
+    ],
+    "ids": [
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      335,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Single player base only. Recolour masked shirt/hair/skin using pack palette; all seven data variants preserved. Walk/hurt directional ranges in animation table. Gun + knife are overlays, no extra poses.",
+    "gap": true,
+    "animation": "walk 3 x 3 native / 4 mirrored; hurt 3 x 3 / 4; idle/attack 1 x 4 derived; death 1+5 x 1",
+    "preview": "survivor_survivor",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0334_Capa-335.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0370_Capa-371.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0371_Capa-372.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0372_Capa-373.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0373_Capa-374.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0374_Capa-375.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0375_Capa-376.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0376_Capa-377.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0377_Capa-378.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0378_Capa-379.png"
+    ]
+  },
+  {
+    "entity": "survivor_hitman",
+    "old": [
+      "characters/survivor_hitman_stand.png",
+      "characters/survivor_hitman_gun.png"
+    ],
+    "ids": [
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      335,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Single player base only. Recolour masked shirt/hair/skin using pack palette; all seven data variants preserved. Walk/hurt directional ranges in animation table. Gun + knife are overlays, no extra poses.",
+    "gap": true,
+    "animation": "walk 3 x 3 native / 4 mirrored; hurt 3 x 3 / 4; idle/attack 1 x 4 derived; death 1+5 x 1",
+    "preview": "survivor_hitman",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0334_Capa-335.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0370_Capa-371.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0371_Capa-372.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0372_Capa-373.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0373_Capa-374.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0374_Capa-375.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0375_Capa-376.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0376_Capa-377.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0377_Capa-378.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0378_Capa-379.png"
+    ]
+  },
+  {
+    "entity": "survivor_soldier",
+    "old": [
+      "characters/survivor_soldier_stand.png",
+      "characters/survivor_soldier_gun.png"
+    ],
+    "ids": [
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      335,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Single player base only. Recolour masked shirt/hair/skin using pack palette; all seven data variants preserved. Walk/hurt directional ranges in animation table. Gun + knife are overlays, no extra poses.",
+    "gap": true,
+    "animation": "walk 3 x 3 native / 4 mirrored; hurt 3 x 3 / 4; idle/attack 1 x 4 derived; death 1+5 x 1",
+    "preview": "survivor_soldier",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0477_Capa-478.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0478_Capa-479.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0479_Capa-480.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0480_Capa-481.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0481_Capa-482.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0482_Capa-483.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0483_Capa-484.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0484_Capa-485.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0485_Capa-486.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0486_Capa-487.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0487_Capa-488.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0488_Capa-489.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0489_Capa-490.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0490_Capa-491.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0491_Capa-492.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0492_Capa-493.png",
+      "asset_library/ittaimanero/sprites/Damaged Player Animation Frames/Zombie-Tileset---_0493_Capa-494.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0334_Capa-335.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0370_Capa-371.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0371_Capa-372.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0372_Capa-373.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0373_Capa-374.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0374_Capa-375.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0375_Capa-376.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0376_Capa-377.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0377_Capa-378.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0378_Capa-379.png"
+    ]
+  },
+  {
+    "entity": "walker",
+    "old": [
+      "characters/zombie_stand.png"
+    ],
+    "ids": [
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Skinny / Kid / Big respectively; native side faces LEFT; mirror to RIGHT. Idle first walk frame; attack walk + lunge; death down-red hurt + blood + fade. No old tint/fractional size after swap.",
+    "gap": false,
+    "animation": "walk 3 x 3 native / 4 mirrored; hurt 3 x 3 / 4; idle 1 x 4; attack 3 x 4 derived; death 1+5 x 1",
+    "preview": "actor_395",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0394_Capa-395.png",
+      "asset_library/ittaimanero/sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0395_Capa-396.png",
+      "asset_library/ittaimanero/sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0396_Capa-397.png",
+      "asset_library/ittaimanero/sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0397_Capa-398.png",
+      "asset_library/ittaimanero/sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0398_Capa-399.png",
+      "asset_library/ittaimanero/sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0399_Capa-400.png",
+      "asset_library/ittaimanero/sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0400_Capa-401.png",
+      "asset_library/ittaimanero/sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0401_Capa-402.png",
+      "asset_library/ittaimanero/sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0402_Capa-403.png",
+      "asset_library/ittaimanero/sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0403_Capa-404.png",
+      "asset_library/ittaimanero/sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0404_Capa-405.png",
+      "asset_library/ittaimanero/sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0405_Capa-406.png",
+      "asset_library/ittaimanero/sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0406_Capa-407.png",
+      "asset_library/ittaimanero/sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0407_Capa-408.png",
+      "asset_library/ittaimanero/sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0408_Capa-409.png",
+      "asset_library/ittaimanero/sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0409_Capa-410.png",
+      "asset_library/ittaimanero/sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0410_Capa-411.png",
+      "asset_library/ittaimanero/sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0411_Capa-412.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0379_Capa-380.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0380_Capa-381.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0381_Capa-382.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0382_Capa-383.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0383_Capa-384.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0384_Capa-385.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0385_Capa-386.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0386_Capa-387.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0387_Capa-388.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0388_Capa-389.png"
+    ]
+  },
+  {
+    "entity": "runner",
+    "old": [
+      "characters/zombie_stand.png"
+    ],
+    "ids": [
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
+      442,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Skinny / Kid / Big respectively; native side faces LEFT; mirror to RIGHT. Idle first walk frame; attack walk + lunge; death down-red hurt + blood + fade. No old tint/fractional size after swap.",
+    "gap": false,
+    "animation": "walk 3 x 3 native / 4 mirrored; hurt 3 x 3 / 4; idle 1 x 4; attack 3 x 4 derived; death 1+5 x 1",
+    "preview": "actor_431",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Kid Zombie Animation Frames/Zombie-Tileset---_0430_Capa-431.png",
+      "asset_library/ittaimanero/sprites/Kid Zombie Animation Frames/Zombie-Tileset---_0431_Capa-432.png",
+      "asset_library/ittaimanero/sprites/Kid Zombie Animation Frames/Zombie-Tileset---_0432_Capa-433.png",
+      "asset_library/ittaimanero/sprites/Kid Zombie Animation Frames/Zombie-Tileset---_0433_Capa-434.png",
+      "asset_library/ittaimanero/sprites/Kid Zombie Animation Frames/Zombie-Tileset---_0434_Capa-435.png",
+      "asset_library/ittaimanero/sprites/Kid Zombie Animation Frames/Zombie-Tileset---_0435_Capa-436.png",
+      "asset_library/ittaimanero/sprites/Kid Zombie Animation Frames/Zombie-Tileset---_0436_Capa-437.png",
+      "asset_library/ittaimanero/sprites/Kid Zombie Animation Frames/Zombie-Tileset---_0437_Capa-438.png",
+      "asset_library/ittaimanero/sprites/Kid Zombie Animation Frames/Zombie-Tileset---_0438_Capa-439.png",
+      "asset_library/ittaimanero/sprites/Damaged Kid Zombie Animation Frames/Zombie-Tileset---_0439_Capa-440.png",
+      "asset_library/ittaimanero/sprites/Damaged Kid Zombie Animation Frames/Zombie-Tileset---_0440_Capa-441.png",
+      "asset_library/ittaimanero/sprites/Damaged Kid Zombie Animation Frames/Zombie-Tileset---_0441_Capa-442.png",
+      "asset_library/ittaimanero/sprites/Damaged Kid Zombie Animation Frames/Zombie-Tileset---_0442_Capa-443.png",
+      "asset_library/ittaimanero/sprites/Damaged Kid Zombie Animation Frames/Zombie-Tileset---_0443_Capa-444.png",
+      "asset_library/ittaimanero/sprites/Damaged Kid Zombie Animation Frames/Zombie-Tileset---_0444_Capa-445.png",
+      "asset_library/ittaimanero/sprites/Damaged Kid Zombie Animation Frames/Zombie-Tileset---_0445_Capa-446.png",
+      "asset_library/ittaimanero/sprites/Damaged Kid Zombie Animation Frames/Zombie-Tileset---_0446_Capa-447.png",
+      "asset_library/ittaimanero/sprites/Damaged Kid Zombie Animation Frames/Zombie-Tileset---_0447_Capa-448.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0379_Capa-380.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0380_Capa-381.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0381_Capa-382.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0382_Capa-383.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0383_Capa-384.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0384_Capa-385.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0385_Capa-386.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0386_Capa-387.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0387_Capa-388.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0388_Capa-389.png"
+    ]
+  },
+  {
+    "entity": "brute",
+    "old": [
+      "characters/zombie_stand.png"
+    ],
+    "ids": [
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Skinny / Kid / Big respectively; native side faces LEFT; mirror to RIGHT. Idle first walk frame; attack walk + lunge; death down-red hurt + blood + fade. No old tint/fractional size after swap.",
+    "gap": false,
+    "animation": "walk 3 x 3 native / 4 mirrored; hurt 3 x 3 / 4; idle 1 x 4; attack 3 x 4 derived; death 1+5 x 1",
+    "preview": "actor_413",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Big Zombie Walking Animation Frames/Zombie-Tileset---_0412_Capa-413.png",
+      "asset_library/ittaimanero/sprites/Big Zombie Walking Animation Frames/Zombie-Tileset---_0413_Capa-414.png",
+      "asset_library/ittaimanero/sprites/Big Zombie Walking Animation Frames/Zombie-Tileset---_0414_Capa-415.png",
+      "asset_library/ittaimanero/sprites/Big Zombie Walking Animation Frames/Zombie-Tileset---_0415_Capa-416.png",
+      "asset_library/ittaimanero/sprites/Big Zombie Walking Animation Frames/Zombie-Tileset---_0416_Capa-417.png",
+      "asset_library/ittaimanero/sprites/Big Zombie Walking Animation Frames/Zombie-Tileset---_0417_Capa-418.png",
+      "asset_library/ittaimanero/sprites/Big Zombie Walking Animation Frames/Zombie-Tileset---_0418_Capa-419.png",
+      "asset_library/ittaimanero/sprites/Big Zombie Walking Animation Frames/Zombie-Tileset---_0419_Capa-420.png",
+      "asset_library/ittaimanero/sprites/Big Zombie Walking Animation Frames/Zombie-Tileset---_0420_Capa-421.png",
+      "asset_library/ittaimanero/sprites/Damaged Big Zombie Animation Frames/Zombie-Tileset---_0421_Capa-422.png",
+      "asset_library/ittaimanero/sprites/Damaged Big Zombie Animation Frames/Zombie-Tileset---_0422_Capa-423.png",
+      "asset_library/ittaimanero/sprites/Damaged Big Zombie Animation Frames/Zombie-Tileset---_0423_Capa-424.png",
+      "asset_library/ittaimanero/sprites/Damaged Big Zombie Animation Frames/Zombie-Tileset---_0424_Capa-425.png",
+      "asset_library/ittaimanero/sprites/Damaged Big Zombie Animation Frames/Zombie-Tileset---_0425_Capa-426.png",
+      "asset_library/ittaimanero/sprites/Damaged Big Zombie Animation Frames/Zombie-Tileset---_0426_Capa-427.png",
+      "asset_library/ittaimanero/sprites/Damaged Big Zombie Animation Frames/Zombie-Tileset---_0427_Capa-428.png",
+      "asset_library/ittaimanero/sprites/Damaged Big Zombie Animation Frames/Zombie-Tileset---_0428_Capa-429.png",
+      "asset_library/ittaimanero/sprites/Damaged Big Zombie Animation Frames/Zombie-Tileset---_0429_Capa-430.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0379_Capa-380.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0380_Capa-381.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0381_Capa-382.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0382_Capa-383.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0383_Capa-384.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0384_Capa-385.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0385_Capa-386.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0386_Capa-387.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0387_Capa-388.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0388_Capa-389.png"
+    ]
+  },
+  {
+    "entity": "Turret Zombie (spare)",
+    "old": [
+      "characters/zombie_hold.png"
+    ],
+    "ids": [
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Not currently spawned; zombie_hold is curated unused art. Native side LEFT. Vomit is a 7-frame projectile, not body attack poses.",
+    "gap": false,
+    "animation": "walk 4 x 3 native / 4 mirrored; hurt 3 x 3 / 4; vomit 7 x 1",
+    "preview": "actor_449",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Turret Zombie Animation Frames/Zombie-Tileset---_0448_Capa-449.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Animation Frames/Zombie-Tileset---_0449_Capa-450.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Animation Frames/Zombie-Tileset---_0450_Capa-451.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Animation Frames/Zombie-Tileset---_0451_Capa-452.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Animation Frames/Zombie-Tileset---_0452_Capa-453.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Animation Frames/Zombie-Tileset---_0453_Capa-454.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Animation Frames/Zombie-Tileset---_0454_Capa-455.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Animation Frames/Zombie-Tileset---_0455_Capa-456.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Animation Frames/Zombie-Tileset---_0456_Capa-457.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Animation Frames/Zombie-Tileset---_0457_Capa-458.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Animation Frames/Zombie-Tileset---_0458_Capa-459.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Animation Frames/Zombie-Tileset---_0459_Capa-460.png",
+      "asset_library/ittaimanero/sprites/Damaged Turret Zombie Animation Frames/Zombie-Tileset---_0460_Capa-461.png",
+      "asset_library/ittaimanero/sprites/Damaged Turret Zombie Animation Frames/Zombie-Tileset---_0461_Capa-462.png",
+      "asset_library/ittaimanero/sprites/Damaged Turret Zombie Animation Frames/Zombie-Tileset---_0462_Capa-463.png",
+      "asset_library/ittaimanero/sprites/Damaged Turret Zombie Animation Frames/Zombie-Tileset---_0463_Capa-464.png",
+      "asset_library/ittaimanero/sprites/Damaged Turret Zombie Animation Frames/Zombie-Tileset---_0464_Capa-465.png",
+      "asset_library/ittaimanero/sprites/Damaged Turret Zombie Animation Frames/Zombie-Tileset---_0465_Capa-466.png",
+      "asset_library/ittaimanero/sprites/Damaged Turret Zombie Animation Frames/Zombie-Tileset---_0466_Capa-467.png",
+      "asset_library/ittaimanero/sprites/Damaged Turret Zombie Animation Frames/Zombie-Tileset---_0467_Capa-468.png",
+      "asset_library/ittaimanero/sprites/Damaged Turret Zombie Animation Frames/Zombie-Tileset---_0468_Capa-469.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Vomit Shooting Animation Frames/Zombie-Tileset---_0469_Capa-470.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Vomit Shooting Animation Frames/Zombie-Tileset---_0470_Capa-471.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Vomit Shooting Animation Frames/Zombie-Tileset---_0471_Capa-472.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Vomit Shooting Animation Frames/Zombie-Tileset---_0472_Capa-473.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Vomit Shooting Animation Frames/Zombie-Tileset---_0473_Capa-474.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Vomit Shooting Animation Frames/Zombie-Tileset---_0474_Capa-475.png",
+      "asset_library/ittaimanero/sprites/Turret Zombie Vomit Shooting Animation Frames/Zombie-Tileset---_0475_Capa-476.png"
+    ]
+  },
+  {
+    "entity": "bullet / tracer",
+    "old": [
+      "fx/bullet.png"
+    ],
+    "ids": [
+      372,
+      373
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Current combat tracer is Line2D, bullet PNG unused. Use 373 shot streak or palette line; rotation allowed.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0371_Capa-372.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0372_Capa-373.png"
+    ]
+  },
+  {
+    "entity": "pistol muzzle flash",
+    "old": [
+      "fx/muzzle_flash.png"
+    ],
+    "ids": [
+      371,
+      372,
+      373,
+      374,
+      375
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "5 FX stages, not character poses; right-facing streak 372/373, burst 371; rotate overlay to target.",
+    "gap": false,
+    "animation": "5 x 1 (FX rotation)",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0370_Capa-371.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0371_Capa-372.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0372_Capa-373.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0373_Capa-374.png",
+      "asset_library/ittaimanero/sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0374_Capa-375.png"
+    ]
+  },
+  {
+    "entity": "shotgun muzzle flash",
+    "old": [
+      "fx/muzzle_flash.png"
+    ],
+    "ids": [
+      365,
+      366,
+      367,
+      368,
+      369,
+      370
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "6 FX stages, overlay only; no shotgun weapon mechanic needed for mapping.",
+    "gap": false,
+    "animation": "6 x 1 (FX rotation)",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0364_Capa-365.png",
+      "asset_library/ittaimanero/sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0365_Capa-366.png",
+      "asset_library/ittaimanero/sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0366_Capa-367.png",
+      "asset_library/ittaimanero/sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0367_Capa-368.png",
+      "asset_library/ittaimanero/sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0368_Capa-369.png",
+      "asset_library/ittaimanero/sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0369_Capa-370.png"
+    ]
+  },
+  {
+    "entity": "knife slash",
+    "old": [],
+    "ids": [
+      376,
+      377,
+      378,
+      379
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "4 slash-overlay stages; stand pose remains player idle. Optional FX.",
+    "gap": false,
+    "animation": "4 x 1 (FX rotation)",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0375_Capa-376.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0376_Capa-377.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0377_Capa-378.png",
+      "asset_library/ittaimanero/sprites/Knife Attack Animation Frames/Zombie-Tileset---_0378_Capa-379.png"
+    ]
+  },
+  {
+    "entity": "blood impact",
+    "old": [],
+    "ids": [
+      380,
+      381,
+      382,
+      383,
+      384
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "5 stages; bottom-centre at hit/death feet.",
+    "gap": false,
+    "animation": "5 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0379_Capa-380.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0380_Capa-381.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0381_Capa-382.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0382_Capa-383.png",
+      "asset_library/ittaimanero/sprites/Blood Animation Frames/Zombie-Tileset---_0383_Capa-384.png"
+    ]
+  },
+  {
+    "entity": "blood stains",
+    "old": [],
+    "ids": [
+      385,
+      386,
+      387,
+      388,
+      389
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "5 static variants, no animation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0384_Capa-385.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0385_Capa-386.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0386_Capa-387.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0387_Capa-388.png",
+      "asset_library/ittaimanero/sprites/Random Blood Stains/Zombie-Tileset---_0388_Capa-389.png"
+    ]
+  },
+  {
+    "entity": "corpses with flies",
+    "old": [],
+    "ids": [
+      291,
+      292,
+      293,
+      294,
+      295,
+      296
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Two bodies: prone 291/294/296; seated 292/293/295. Do not cycle all six as one corpse (pose changes).",
+    "gap": false,
+    "animation": "3 x 1 each of 2 bodies",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Dead Corpses With Flies Animation Frames/Zombie-Tileset---_0290_Capa-291.png",
+      "asset_library/ittaimanero/sprites/Dead Corpses With Flies Animation Frames/Zombie-Tileset---_0291_Capa-292.png",
+      "asset_library/ittaimanero/sprites/Dead Corpses With Flies Animation Frames/Zombie-Tileset---_0292_Capa-293.png",
+      "asset_library/ittaimanero/sprites/Dead Corpses With Flies Animation Frames/Zombie-Tileset---_0293_Capa-294.png",
+      "asset_library/ittaimanero/sprites/Dead Corpses With Flies Animation Frames/Zombie-Tileset---_0294_Capa-295.png",
+      "asset_library/ittaimanero/sprites/Dead Corpses With Flies Animation Frames/Zombie-Tileset---_0295_Capa-296.png"
+    ]
+  },
+  {
+    "entity": "explosion",
+    "old": [],
+    "ids": [
+      359,
+      360,
+      361,
+      362,
+      363,
+      364
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "6 burst stages; optional building-destruction FX.",
+    "gap": false,
+    "animation": "6 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Explosion Animation Frames/Zombie-Tileset---_0358_Capa-359.png",
+      "asset_library/ittaimanero/sprites/Explosion Animation Frames/Zombie-Tileset---_0359_Capa-360.png",
+      "asset_library/ittaimanero/sprites/Explosion Animation Frames/Zombie-Tileset---_0360_Capa-361.png",
+      "asset_library/ittaimanero/sprites/Explosion Animation Frames/Zombie-Tileset---_0361_Capa-362.png",
+      "asset_library/ittaimanero/sprites/Explosion Animation Frames/Zombie-Tileset---_0362_Capa-363.png",
+      "asset_library/ittaimanero/sprites/Explosion Animation Frames/Zombie-Tileset---_0363_Capa-364.png"
+    ]
+  },
+  {
+    "entity": "smoke",
+    "old": [],
+    "ids": [
+      322,
+      323,
+      324,
+      325,
+      326,
+      327
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "6 smoke stages; optional workshop/ruins FX.",
+    "gap": false,
+    "animation": "6 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Smoke Animation Frames/Zombie-Tileset---_0321_Capa-322.png",
+      "asset_library/ittaimanero/sprites/Smoke Animation Frames/Zombie-Tileset---_0322_Capa-323.png",
+      "asset_library/ittaimanero/sprites/Smoke Animation Frames/Zombie-Tileset---_0323_Capa-324.png",
+      "asset_library/ittaimanero/sprites/Smoke Animation Frames/Zombie-Tileset---_0324_Capa-325.png",
+      "asset_library/ittaimanero/sprites/Smoke Animation Frames/Zombie-Tileset---_0325_Capa-326.png",
+      "asset_library/ittaimanero/sprites/Smoke Animation Frames/Zombie-Tileset---_0326_Capa-327.png"
+    ]
+  },
+  {
+    "entity": "wrecked cars / tires",
+    "old": [
+      "props/scrap_2.png"
+    ],
+    "ids": [
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194
+    ],
+    "cell": [
+      48,
+      48
+    ],
+    "notes": "Three car colours x four views (180-191), debris 192, tires 193/194; intact car is decoration, salvage pile uses cropped debris. No rotation.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0179_Capa-180.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0180_Capa-181.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0181_Capa-182.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0182_Capa-183.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0183_Capa-184.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0184_Capa-185.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0185_Capa-186.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0186_Capa-187.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0187_Capa-188.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0188_Capa-189.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0189_Capa-190.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0190_Capa-191.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0191_Capa-192.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0192_Capa-193.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0193_Capa-194.png"
+    ]
+  },
+  {
+    "entity": "barrels",
+    "old": [],
+    "ids": [
+      147,
+      148,
+      149,
+      150
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "4 barrel damage/explosion states; not 4 directions.",
+    "gap": false,
+    "animation": "4 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Exploding Barrel Animation Frames/Zombie-Tileset---_0146_Capa-147.png",
+      "asset_library/ittaimanero/sprites/Exploding Barrel Animation Frames/Zombie-Tileset---_0147_Capa-148.png",
+      "asset_library/ittaimanero/sprites/Exploding Barrel Animation Frames/Zombie-Tileset---_0148_Capa-149.png",
+      "asset_library/ittaimanero/sprites/Exploding Barrel Animation Frames/Zombie-Tileset---_0149_Capa-150.png"
+    ]
+  },
+  {
+    "entity": "signs",
+    "old": [],
+    "ids": [
+      151,
+      152,
+      153,
+      155,
+      156,
+      158,
+      159,
+      160
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Road signs/barricade; generic sign 153. Existing art contains pictograms, keep without baking new game text.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Urban Assets/Zombie-Tileset---_0150_Capa-151.png",
+      "asset_library/ittaimanero/sprites/Urban Assets/Zombie-Tileset---_0151_Capa-152.png",
+      "asset_library/ittaimanero/sprites/Urban Assets/Zombie-Tileset---_0152_Capa-153.png",
+      "asset_library/ittaimanero/sprites/Urban Assets/Zombie-Tileset---_0154_Capa-155.png",
+      "asset_library/ittaimanero/sprites/Urban Assets/Zombie-Tileset---_0155_Capa-156.png",
+      "asset_library/ittaimanero/sprites/Urban Assets/Zombie-Tileset---_0157_Capa-158.png",
+      "asset_library/ittaimanero/sprites/Urban Assets/Zombie-Tileset---_0158_Capa-159.png",
+      "asset_library/ittaimanero/sprites/Urban Assets/Zombie-Tileset---_0159_Capa-160.png"
+    ]
+  },
+  {
+    "entity": "bushes",
+    "old": [],
+    "ids": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Corners/centre of modular hedge; 84/90 half-width caps. Optional static decals.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Bushes/Zombie-Tileset---_0081_Capa-82.png",
+      "asset_library/ittaimanero/sprites/Modular Bushes/Zombie-Tileset---_0082_Capa-83.png",
+      "asset_library/ittaimanero/sprites/Modular Bushes/Zombie-Tileset---_0083_Capa-84.png",
+      "asset_library/ittaimanero/sprites/Modular Bushes/Zombie-Tileset---_0084_Capa-85.png",
+      "asset_library/ittaimanero/sprites/Modular Bushes/Zombie-Tileset---_0085_Capa-86.png",
+      "asset_library/ittaimanero/sprites/Modular Bushes/Zombie-Tileset---_0086_Capa-87.png",
+      "asset_library/ittaimanero/sprites/Modular Bushes/Zombie-Tileset---_0087_Capa-88.png",
+      "asset_library/ittaimanero/sprites/Modular Bushes/Zombie-Tileset---_0088_Capa-89.png",
+      "asset_library/ittaimanero/sprites/Modular Bushes/Zombie-Tileset---_0089_Capa-90.png",
+      "asset_library/ittaimanero/sprites/Modular Bushes/Zombie-Tileset---_0090_Capa-91.png"
+    ]
+  },
+  {
+    "entity": "straw",
+    "old": [],
+    "ids": [
+      119,
+      120,
+      121,
+      122,
+      123,
+      124
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Static stack plus side/top cuts; optional farm prop.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Modular Stacked Straw/Zombie-Tileset---_0118_Capa-119.png",
+      "asset_library/ittaimanero/sprites/Modular Stacked Straw/Zombie-Tileset---_0119_Capa-120.png",
+      "asset_library/ittaimanero/sprites/Modular Stacked Straw/Zombie-Tileset---_0120_Capa-121.png",
+      "asset_library/ittaimanero/sprites/Modular Stacked Straw/Zombie-Tileset---_0121_Capa-122.png",
+      "asset_library/ittaimanero/sprites/Modular Stacked Straw/Zombie-Tileset---_0122_Capa-123.png",
+      "asset_library/ittaimanero/sprites/Modular Stacked Straw/Zombie-Tileset---_0123_Capa-124.png"
+    ]
+  },
+  {
+    "entity": "rescue helicopter body",
+    "old": [
+      "fx/helicopter_body.png"
+    ],
+    "ids": [
+      167,
+      171,
+      221
+    ],
+    "cell": [
+      48,
+      32
+    ],
+    "notes": "No helicopter or aircraft. Hand-edit car fuselage into 3/4 helicopter with skids/cockpit/tail; car is material reference only. Four discrete headings.",
+    "gap": true,
+    "animation": "1 x 4",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Drivable Car with 8 Directions/Zombie-Tileset---_0166_Capa-167.png",
+      "asset_library/ittaimanero/sprites/Drivable Car with 8 Directions/Zombie-Tileset---_0170_Capa-171.png",
+      "asset_library/ittaimanero/sprites/Windmill with Fan Animation Frames/Zombie-Tileset---_0220_Capa-221.png"
+    ]
+  },
+  {
+    "entity": "rescue helicopter rotor",
+    "old": [
+      "fx/helicopter_rotor.png"
+    ],
+    "ids": [
+      223,
+      224,
+      225
+    ],
+    "cell": [
+      48,
+      48
+    ],
+    "notes": "Windmill fan is vertical, cannot be a top rotor unchanged. Hand-edit horizontal rotor, discrete blade phases; retain hub coordinate with body, no continuous rotation.",
+    "gap": true,
+    "animation": "3 x 1 phases",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Windmill with Fan Animation Frames/Zombie-Tileset---_0222_Capa-223.png",
+      "asset_library/ittaimanero/sprites/Windmill with Fan Animation Frames/Zombie-Tileset---_0223_Capa-224.png",
+      "asset_library/ittaimanero/sprites/Windmill with Fan Animation Frames/Zombie-Tileset---_0224_Capa-225.png"
+    ]
+  },
+  {
+    "entity": "rescue helicopter shadow",
+    "old": [
+      "fx/helicopter_body.png"
+    ],
+    "ids": [
+      167
+    ],
+    "cell": [
+      48,
+      32
+    ],
+    "notes": "Reuse final helicopter alpha as runtime shadow at reduced opacity; no separate missing art.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Drivable Car with 8 Directions/Zombie-Tileset---_0166_Capa-167.png"
+    ]
+  },
+  {
+    "entity": "UI panels",
+    "old": [
+      "ui/panel.png",
+      "ui/panel_wide.png"
+    ],
+    "ids": [
+      499,
+      502
+    ],
+    "cell": [
+      32,
+      22
+    ],
+    "notes": "UI Elements has dotted square inventory frames, not solid large panels. Best 9-slice basis is EMPTY_SLOT (32x22), corner margins 6 source px.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "ui_panel",
+    "sources": [
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0498_Capa-499.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0499_Capa-502.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/EMPTY_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/USING_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/GUN_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/SINGLE_AMMO_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/RADIO_SLOT.png"
+    ]
+  },
+  {
+    "entity": "inventory slots",
+    "old": [],
+    "ids": [
+      499,
+      502
+    ],
+    "cell": [
+      32,
+      22
+    ],
+    "notes": "Use all 32x22 item slots; USING_SLOT is selection border; INTERFACE WITH NEW INVENTORY is a flattened 480x270 mockup, not a runtime panel.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "inventory",
+    "sources": [
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0498_Capa-499.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0499_Capa-502.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/EMPTY_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/USING_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/GUN_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/SINGLE_AMMO_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/RADIO_SLOT.png"
+    ]
+  },
+  {
+    "entity": "UI button normal",
+    "old": [
+      "ui/button_normal.png"
+    ],
+    "ids": [],
+    "cell": [
+      32,
+      22
+    ],
+    "notes": "Derive solid 9-slice button from EMPTY_SLOT; no standalone button PNG in pack.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "ui_panel",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Inventory interface/EMPTY_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/USING_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/GUN_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/SINGLE_AMMO_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/RADIO_SLOT.png"
+    ]
+  },
+  {
+    "entity": "UI button hover",
+    "old": [
+      "ui/button_hover.png"
+    ],
+    "ids": [],
+    "cell": [
+      32,
+      22
+    ],
+    "notes": "Overlay USING_SLOT highlight on EMPTY_SLOT; no dedicated hover sprite.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "ui_hover",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Inventory interface/EMPTY_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/USING_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/GUN_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/SINGLE_AMMO_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/RADIO_SLOT.png"
+    ]
+  },
+  {
+    "entity": "UI button pressed",
+    "old": [
+      "ui/button_pressed.png"
+    ],
+    "ids": [],
+    "cell": [
+      32,
+      22
+    ],
+    "notes": "Palette-remap EMPTY_SLOT interior darker and inset content 1 source px; no dedicated pressed sprite.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "ui_pressed",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Inventory interface/EMPTY_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/USING_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/GUN_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/SINGLE_AMMO_SLOT.png",
+      "asset_library/ittaimanero/sprites/Inventory interface/RADIO_SLOT.png"
+    ]
+  },
+  {
+    "entity": "UI health/progress bar background",
+    "old": [
+      "ui/bar_background.png"
+    ],
+    "ids": [
+      499,
+      517,
+      518
+    ],
+    "cell": [
+      32,
+      6
+    ],
+    "notes": "Cut existing outlined slot into narrow 9-slice bar; pack 517/518 are battery-like glyphs, not full bars.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "bar_bg",
+    "sources": [
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0498_Capa-499.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0514_Capa-517.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0515_Capa-518.png"
+    ]
+  },
+  {
+    "entity": "UI health/progress bar fill",
+    "old": [
+      "ui/bar_fill.png"
+    ],
+    "ids": [
+      517
+    ],
+    "cell": [
+      30,
+      4
+    ],
+    "notes": "Solid pack colour fill; HP/progress semantics remain procedural, no missing art.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "bar_fill",
+    "sources": [
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0514_Capa-517.png"
+    ]
+  },
+  {
+    "entity": "HUD icon food",
+    "old": [
+      "icons/icon_food.png"
+    ],
+    "ids": [
+      329,
+      330,
+      331
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Food uses drumstick/food, wood a cut log, scrap tire, ammo cartridges; native glyphs padded, never Lanczos.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0328_Capa-329.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0329_Capa-330.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0330_Capa-331.png"
+    ]
+  },
+  {
+    "entity": "HUD icon wood",
+    "old": [
+      "icons/icon_wood.png"
+    ],
+    "ids": [
+      140
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Food uses drumstick/food, wood a cut log, scrap tire, ammo cartridges; native glyphs padded, never Lanczos.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Trees/Zombie-Tileset---_0139_Capa-140.png"
+    ]
+  },
+  {
+    "entity": "HUD icon scrap",
+    "old": [
+      "icons/icon_scrap.png"
+    ],
+    "ids": [
+      193,
+      194
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Food uses drumstick/food, wood a cut log, scrap tire, ammo cartridges; native glyphs padded, never Lanczos.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0192_Capa-193.png",
+      "asset_library/ittaimanero/sprites/Broken Cars and Tires/Zombie-Tileset---_0193_Capa-194.png"
+    ]
+  },
+  {
+    "entity": "HUD icon ammo",
+    "old": [
+      "icons/icon_ammo.png"
+    ],
+    "ids": [
+      343,
+      344,
+      345
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Food uses drumstick/food, wood a cut log, scrap tire, ammo cartridges; native glyphs padded, never Lanczos.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0342_Capa-343.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0343_Capa-344.png",
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0344_Capa-345.png"
+    ]
+  },
+  {
+    "entity": "HUD icon pause",
+    "old": [
+      "icons/icon_pause.png"
+    ],
+    "ids": [
+      499
+    ],
+    "cell": [
+      8,
+      8
+    ],
+    "notes": "No transport controls. Hand-place 2 bars / triangle / double triangle using outline and off-white pack colours.",
+    "gap": true,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0498_Capa-499.png"
+    ]
+  },
+  {
+    "entity": "HUD icon play",
+    "old": [
+      "icons/icon_play.png"
+    ],
+    "ids": [
+      499
+    ],
+    "cell": [
+      8,
+      8
+    ],
+    "notes": "No transport controls. Hand-place 2 bars / triangle / double triangle using outline and off-white pack colours.",
+    "gap": true,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0498_Capa-499.png"
+    ]
+  },
+  {
+    "entity": "HUD icon fast",
+    "old": [
+      "icons/icon_fast.png"
+    ],
+    "ids": [
+      499
+    ],
+    "cell": [
+      8,
+      8
+    ],
+    "notes": "No transport controls. Hand-place 2 bars / triangle / double triangle using outline and off-white pack colours.",
+    "gap": true,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0498_Capa-499.png"
+    ]
+  },
+  {
+    "entity": "UI digits / labels / font",
+    "old": [],
+    "ids": [
+      495,
+      496,
+      497,
+      498,
+      503,
+      504,
+      505,
+      506,
+      507,
+      508,
+      509,
+      510,
+      511,
+      512,
+      513,
+      514,
+      515,
+      516,
+      517,
+      518,
+      519
+    ],
+    "cell": [
+      40,
+      16
+    ],
+    "notes": "Digits 0-9 are 504-513 (individual 8x8 cells), colon 514, a few baked labels 495-498/503/515/516. No complete alphabet, font file or readable full UI font.",
+    "gap": true,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0494_Capa-495.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0495_Capa-496.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0496_Capa-497.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0497_Capa-498.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0500_Capa-503.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0501_Capa-504.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0502_Capa-505.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0503_Capa-506.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0504_Capa-507.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0505_Capa-508.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0506_Capa-509.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0507_Capa-510.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0508_Capa-511.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0509_Capa-512.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0510_Capa-513.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0511_Capa-514.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0512_Capa-515.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0513_Capa-516.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0514_Capa-517.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0515_Capa-518.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0516_Capa-519.png"
+    ]
+  },
+  {
+    "entity": "title scene",
+    "old": [
+      "ui/title_art.png"
+    ],
+    "ids": [
+      78,
+      1,
+      25,
+      2,
+      26,
+      3,
+      27,
+      5,
+      15,
+      395,
+      477
+    ],
+    "cell": [
+      64,
+      48
+    ],
+    "notes": "Replace old static 1280x720 image with live siege composition of mapped entities in menu task. Contact sheet uses labelled overview thumbnail, no full-size new title asset.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "title",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Terrain Variations/Zombie-Tileset---_0077_Capa-78.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0000_Capa-1.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0024_Capa-25.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0001_Capa-2.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0025_Capa-26.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0002_Capa-3.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0026_Capa-27.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0004_Capa-5.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0014_Capa-15.png",
+      "asset_library/ittaimanero/sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0394_Capa-395.png",
+      "asset_library/ittaimanero/sprites/Player Character Walking Animation Frames/Zombie-Tileset---_0476_Capa-477.png"
+    ]
+  },
+  {
+    "entity": "application icon",
+    "old": [
+      "icon/icon.png"
+    ],
+    "ids": [
+      356,
+      1,
+      25,
+      2,
+      26,
+      3,
+      27,
+      5,
+      15
+    ],
+    "cell": [
+      32,
+      32
+    ],
+    "notes": "Compose CC silhouette + radio glyph at integer native size; reuse approved tower vocabulary. ICO derived later; no independent gap.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "icon",
+    "sources": [
+      "asset_library/ittaimanero/sprites/Pickable Items and Weapons/Zombie-Tileset---_0355_Capa-356.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0000_Capa-1.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0024_Capa-25.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0001_Capa-2.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0025_Capa-26.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0002_Capa-3.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0026_Capa-27.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0004_Capa-5.png",
+      "asset_library/ittaimanero/sprites/Modular Big Building/Zombie-Tileset---_0014_Capa-15.png"
+    ]
+  },
+  {
+    "entity": "HP bars / progress indicators",
+    "old": [],
+    "ids": [
+      517,
+      518
+    ],
+    "cell": [
+      16,
+      4
+    ],
+    "notes": "Currently procedural coloured rectangles; theme same procedural primitives with existing pack colours.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "bar_fill",
+    "sources": [
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0514_Capa-517.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0515_Capa-518.png"
+    ]
+  },
+  {
+    "entity": "selection / placement outlines",
+    "old": [],
+    "ids": [
+      499
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Procedural ring/rect outlines; redraw pixel-stepped outline using pack colours. No texture gap.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": "outline",
+    "sources": [
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0498_Capa-499.png"
+    ]
+  },
+  {
+    "entity": "floating text / phase banners / screen tint",
+    "old": [],
+    "ids": [
+      504,
+      505,
+      506,
+      507,
+      508,
+      509,
+      510,
+      511,
+      512,
+      513
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "notes": "Procedural Labels and CanvasModulate; use chosen UI font + palette colours. No additional sprite, font gap shared above.",
+    "gap": false,
+    "animation": "1 x 1",
+    "preview": null,
+    "sources": [
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0501_Capa-504.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0502_Capa-505.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0503_Capa-506.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0504_Capa-507.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0505_Capa-508.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0506_Capa-509.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0507_Capa-510.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0508_Capa-511.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0509_Capa-512.png",
+      "asset_library/ittaimanero/sprites/UI Elements/Zombie-Tileset---_0510_Capa-513.png"
+    ]
+  }
+]

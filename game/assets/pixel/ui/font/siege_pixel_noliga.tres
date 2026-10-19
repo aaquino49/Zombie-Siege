@@ -1,0 +1,10 @@
+[gd_resource type="FontVariation" load_steps=2 format=3]
+
+[ext_resource type="FontFile" path="res://assets/pixel/ui/font/siege_pixel.ttf" id="1_font"]
+
+[resource]
+base_font = ExtResource("1_font")
+opentype_features = {
+1668049255: 0,
+1818847073: 0
+}
